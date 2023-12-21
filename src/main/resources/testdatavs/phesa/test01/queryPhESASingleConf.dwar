@@ -1,0 +1,17 @@
+<datawarrior-fileinfo>
+<version="3.3">
+</datawarrior-fileinfo>
+<column properties>
+<columnName="Structure">
+<columnProperty="idColumn	IDcode">
+<columnProperty="specialType	idcode">
+<columnName="idcoordinates3D">
+<columnProperty="parent	Structure">
+<columnProperty="specialType	idcoordinates3D">
+<columnName="PheSA">
+<columnProperty="version	2.1">
+<columnProperty="parent	Structure">
+<columnProperty="specialType	PheSA">
+</column properties>
+Structure	transformation	idcoordinates3D	PheSA
+fewp`@DZlANQQJJIIKQSSF[QUc^bT\vhJBbjZZhj`RPJ`	{r P+9JAV1yeMG/wqYVCeXC8b/DZDOxXHTO;v8K+jarGdve/76eF78v5GT95tWsYoUTJ;v8NMjR/e2kE/kG8SEignYb/voUjLodaA;,t P+Z3ojbg+TG/0D1z3vyJi7/IlnRuJ4Rl}	#qX\thI^YK?nJ{oReKAS~puawQzzBtZ]Hno\vzQNXrDdOqT|tCtWqoveKWEKY??qvV[R}N}daqd||gUdmQn^@MA]^^vpCLf]WNTWv@dwE}aIQyC@uYnlZJkzTFpSHWJeYpQAYTw|CZRCdc~EPykvAjVQG^KIJf[x]N]EsX\gylPHiRzy_KLVTVEHYTPWRa^CfFFZKeomCPbEW_z[N]`wi`ZoY|RBk{tbWJD{kM@uheT?FJmM|qL|W~i_OCJmUWz\l|H[e^MX^C^BTB@elzBKVOSQ?UfOQQr^L^`YfesQ\CeQwrmhqbEaJRPmoQRUjamQ?]UDM@E\lFU?PV`ZaYUiEQAS@lfGRpjSbAF[Dzidis~VUBdqwNH[QiD_WNRDlz}h_Ae`VLKNlNQrsaoexerOU~]kl|UlJk{PlNMBih@K@Aj@D	1   26  8 0 #13F$3k)Ek+ #33ODLeV3tpG0O@_SqjkdgqIf0jzx(  6 1 #13F$3k)Ek+ #33Rr@xV3ZrobluOCajkT@PB8R7zx(  7 2 #13F$3k)Ek+ #33R8K0k33I9pgxJfBEzTh@lZ07zwz#Cw0  6 3 #13F$3k)Ek+ #33R4ZJk3e7b4UHxpQjl8zK7Z07zx$8R0  6 4 #13F$3k)Ek+ #33Fx8X036RnctytY2Ews09lIzsygz%k  6 5 #13F$3k)Ek+ #33ROst03yYPdUpyfcjlZ9ckR07zx$FB0  6 6 #13F$3k)Ek+ #33FmTjF2fssXpuOzBEl7RM#7zx$5J0  6 7 #13F$3k)Ek+ #33JTEt03WvGTjqxM1j:FeIBPk!z!1:F  6 8 #13F$3k)Ek+ #33K6ObF2pgcnNR2vKj:IYpnzsGgz%k  6 9 #13F$3k)Ek+ #33OnsyV!odrDKjL_k1x39fk07zx$Ho0  6 10 #13F$3k)Ek+ #33LiVHk38Z_r4@p4BjlW1EP!7zx$Am0  7 11 #13F$3k)Ek+ #33OqGx03zS7bvAZT2jkeKwxIF!1#1:V  6 12 #13F$3k)Ek+ #33Mx1dV3s0Wq9XBmFjkqMz33zs01$g0k  7 13 #13F$3k)Ek+ #33JgT903o0L8CZL3rjlv61PF07zx$G50  6 14 #13F$3k)Ek+ #33Hmr5!7puF3sWJVk1@NqhkKs01#1:V  6 15 #13F$3k)Ek+ #33RMh_k02Ok78869_k10dzunzs01#1cFk  6 16 #13F$3k)Ek+ #33FEVj#o4asgDclk0tVghEzs01$HQk  6 17 #13F$3k)Ek+ #33GX9D03wSrWcQ@KDjlLe4jAzs01$PQk  8 18 #13F$3k)Ek+ #33IRIwk05D4PhLXuDk1@Oz83L801#1:0  6 19 #13F$3k)Ek+ #33Ij1zV0GZmDX8HGck1V@nDU2801#1:V  6 20 #13F$3k)Ek+ #33Nf_FF05vdnM5dEBk1S7Fr3zs01$Lik  6 21 #13F$3k)Ek+ #33H9mV!JpUf_j@D5k1UTk33j801#1:V  6 22 #13F$3k)Ek+ #33NWSnF0IlE_HoVwEk1sc30c7s01#1:k  6 23 #13F$3k)Ek+ #33MVEzV0I2FNl1W6zk18H3qXHN01#1:V  6 24 #13F$3k)Ek+ #33HUYF!LpqC56474k1Gp5P8V801#1:V  6 25 #13F$3k)Ek+ #33Nl5RF0KkpVJoCiwk0ufqNXqc01#1:k  7  6 P/AAAAAAAAA= r 3 3 5 9 13 10 6  6 P/AAAAAAAAA= a 0 590088 1 1 2  6 P/AAAAAAAAA= a 0 590088 2 1 2  6 P/AAAAAAAAA= a 13 4359 0 9 10  6 P/AAAAAAAAA= a 18 590088 1 14 11  6 P/AAAAAAAAA= a 18 590088 2 14 11  6 P/AAAAAAAAA= d 2 26 598407  2  6 0 #33H8ay!2Q7z_F@d6F0Hyj7807zx$RQ0 1  6 0 #33I7UmF0X_tPZJ2apk2e0LB_b!1#1:k -1  !1G3NwYgF0PLNquYreyk2bsYZJdSMO0_yE@eakSYk1BBp0yvwYfI1iaxDW9UlJ8lR@qZGQWTguEMNoXUHQzLGDUzvDe3mICPO9reEd5q0aj9vv@oe9AcZ2f5ORQVFKCA6qi_fBPyqThY1IUS_12ZrHDBX9Hf755SO7cTgYmNFo5_thueoNkz2!Re4MEo4OK@ulRhOdc4J$A      fewp`@DZlANQQJJIIKQSSF[QUc^bT\vhJBbjZZhj`RPJ`   #qX\thI^YK?nJ{oReKAS~puawQzzBtZ]Hno\vzQNXrDdOqT|tCtWqoveKWEKY??qvV[R}N}daqd||gUdmQn^@MA]^^vpCLf]WNTWv@dwE}aIQyC@uYnlZJkzTFpSHWJeYpQAYTw|CZRCdc~EPykvAjVQG^KIJf[x]N]EsX\gylPHiRzy_KLVTVEHYTPWRa^CfFFZKeomCPbEW_z[N]`wi`ZoY|RBk{tbWJD{kM@uheT?FJmM|qL|W~i_OCJmUWz\l|H[e^MX^C^BTB@elzBKVOSQ?UfOQQr^L^`YfesQ\CeQwrmhqbEaJRPmoQRUjamQ?]UDM@E\lFU?PV`ZaYUiEQAS@lfGRpjSbAF[Dzidis~VUBdqwNH[QiD_WNRDlz}h_Ae`VLKNlNQrsaoexerOU~]kl|UlJk{PlNMBih@K@Aj@D

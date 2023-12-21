@@ -1,0 +1,69 @@
+<datawarrior-fileinfo>
+<version="3.3">
+<created="1595933272403">
+<rowcount="1">
+</datawarrior-fileinfo>
+<column properties>
+<columnName="idcoordinates2D">
+<columnProperty="parent	Structure">
+<columnProperty="specialType	idcoordinates2D">
+<columnName="FragFp">
+<columnProperty="parent	Structure">
+<columnProperty="specialType	FragFp">
+<columnProperty="version	1.2.1">
+<columnName="idcoordinates3D">
+<columnProperty="parent	Structure">
+<columnProperty="specialType	idcoordinates3D">
+<columnName="Structure">
+<columnProperty="specialType	idcode">
+</column properties>
+idcoordinates2D	FragFp	idcoordinates3D	Structure	4LetterCode	Target	Name	Row No
+	?yzU:vzxvjjhuxfzCjAfUwwoSvnh@@jMYNDzyVa6dmOH9mhXW6c4rnFTgG4@kk049YF0F0V@881a0n0	@r-Vf~uNkdJD|`|W.JuM=Yg)Ar;-px=\l/IruQ/p:/BVm1J.J{BVBVJ{PH]s.yC]\u|N`KRy>AfZL~Bkd||d	fkoqP@BZzADdyrJZJIRqIQJIEJYK`mgZjejjijh@HqbJed@	1o86	ACE		1
+<datawarrior properties>
+<axisColumn_2D View_0="<unassigned>">
+<axisColumn_2D View_1="<unassigned>">
+<axisColumn_3D View_0="<unassigned>">
+<axisColumn_3D View_1="<unassigned>">
+<axisColumn_3D View_2="<unassigned>">
+<chartType_2D View="scatter">
+<chartType_3D View="scatter">
+<columnFilter_Table="">
+<columnWidth_Table_4LetterCode="79">
+<columnWidth_Table_Name="79">
+<columnWidth_Table_Row No="80">
+<columnWidth_Table_Structure="248">
+<columnWidth_Table_Target="79">
+<detailView="height[Data]=0.5;height[Structure]=0.5">
+<faceColor3D_3D View="-1250054">
+<mainSplitting="0.71271">
+<mainView="Table">
+<mainViewCount="4">
+<mainViewDockInfo0="root">
+<mainViewDockInfo1="Table	center">
+<mainViewDockInfo2="2D View	center">
+<mainViewDockInfo3="3D View	center">
+<mainViewInFront0="true">
+<mainViewName0="Table">
+<mainViewName1="2D View">
+<mainViewName2="3D View">
+<mainViewName3="Structures">
+<mainViewType0="tableView">
+<mainViewType1="2Dview">
+<mainViewType2="3Dview">
+<mainViewType3="structureView">
+<rightSplitting="0.65017">
+<rotationMatrix_3D View00="1">
+<rotationMatrix_3D View01="0">
+<rotationMatrix_3D View02="0">
+<rotationMatrix_3D View10="0">
+<rotationMatrix_3D View11="1">
+<rotationMatrix_3D View12="0">
+<rotationMatrix_3D View20="0">
+<rotationMatrix_3D View21="0">
+<rotationMatrix_3D View22="1">
+<rowHeight_Table="80">
+<scaleStyle_2D View="frame">
+<scaleStyle_3D View="arrows">
+<structureGridColumn_Structures="Structure">
+<structureGridColumns_Structures="6">
+</datawarrior properties>

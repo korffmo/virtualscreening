@@ -1,0 +1,50 @@
+<datawarrior-fileinfo>
+<version="3.3">
+<rowcount="00000000010">
+<application="DWARFileHandler">
+</datawarrior-fileinfo>
+<column properties>
+<columnName="FragFp">
+<columnProperty="parent	Structure">
+<columnProperty="specialType	FragFp">
+<columnProperty="version	1.2.1">
+<columnName="PathFp">
+<columnProperty="parent	Structure">
+<columnProperty="specialType	PathFp">
+<columnProperty="version	1.1">
+<columnName="Structure">
+<columnProperty="specialType	idcode">
+</column properties>
+FragFp	PathFp	Structure	Target	RecordNo
+?yzU:vzxvjjhuxfzCjAfUwwoSvnh@@jMYNDzyVa6dmOH9mhXW6c4rnFTgG4@kk0493F0F0V@881a0n0	16809080V808VF0L0@802!88X81O18BV8N221F4#Fs8#40k#8W5!2!F0NZ49F824FFa2Z22GVg410	fkoqP@BZzADdyrJZJIRqIQJIEJYK`mgZjejjijh@HqbJed@	ACE	0
+?qzUDwfUCuj_SksemB7ScrZoV5f1W2@bLeN0mV8m0528V1G1XV4A4p!@e0J0k!F!H#c8c!a0I0	168090@0V#V$@1020281V!1V!V80221040V!N8%k#815!2!F0NZ!F024FFV2V20F0B4W0	flyab@FTCD@Pdls[\k_duSUAPLFDHbd`@	ACE	1
+?yzU:vzxvjbhuzevCjAjUosoSv_h@@a6jN2yXVLLAmBFCn9eW484rk0DgG4@kF!10A0s0V28!a0I0	1680C2@0V0F0VF0F0@V020280X01G#V882210ZF!FsN#40k#815!2!k1RZ0@F024FFX2V20F0B4Y0	fasPR@J^HyoPAFQQQYQQISFZIRpRujZ`hFJjXlPWEE@@	ACE	2
+?yzU:vzxvjbhuzfzCjAjUqwoSzhh@@bMjR6zmtqTQmRk9nOeW6cJrq0DiIZ@oF0590IFN8V@8X0a0I0	G680C6@0Z0F0VL0F4@WJ@02NKXF9GW10W88L21W_L!FwN0V041m020815!204k1RZ58F824FGX6W20FXB4b0	fmwPQ@LVT{tPAFPcIEDhdeMicMLhdfRDZZzjjfiij`@hIA\Thf@@	ACE	3
+?yzU:vzxvjbhPvfvCjAjUowoSvWh@@a7YN2zLV669mOHCmhXW4c4rk0DgG0@kF!13N0k0V2880a0I0	16809080V!8VF0F0@802!80X01G#V8822104#FsN#40k#815!2!F0RZ0@F824FFa2V20F0g410	fikQP@BZ@bPXyEMEDiXmEDUDepWQmUTuUMP@QcDUKH@	ACE	4
+zrUtzdUUrKzxQH@UEEBkQu@d6AH4CWLB62tXA3mC8@aeZV0XHXl0t!B8FV1Z59@0Y!_0450101F28801W0kV	kGPWg3808@60hX5Y08H0l6eV1!NF9IkkXFGF8VZ22!4948NF0PFN08W60c0C0eHVX@0oV8vBFX21Qk0ZRV70	fjmiA@BJtXnPQG`aIfU~VuvXHuhHHfjjfD@@	Decoy	5
+zrzxzdUUrpzxUH@QUEBkQe@d6AH4CVwD62t2A3HC@AaeZV0XHXk0t0kB8F0G418PFd!_04101X0F2890110VV	k1PFB38!240hX5X09F8G6X08#N1l0VVFN0GV42FF04dZ0FF0H09F0W44g0CVeH2Y20JV0kCF22GQk0_NV7V	ff}Ib@LDXjUb`BLdTRTTrNTRVSNIsSUSUP@T`@@	Decoy	6
+zrUtzdUUzKzxQH@QUEBkQe@d6AH4CVSB62t2A3mC@AaeZV0XHXk0t!B8F01Z58@0d!_V4501!F28901W0kV	kIPVh380c@60hXKY08H0l6XV1V0F01IkVVFGF0VZ22!4940NF0H0808W40c0C0eH0a@0oV0v4F221Qk0ZRV70	fjmiB@LDXjt`AFRJIJJYGJIKLxgMMUMU@AH@@	Decoy	7
+zrztzdUUzpzxQHAQUUBkQAP9aAm6BVSALHt@AEFCPIaeZV2X6Ys8zVHJ080c_GNHWW0VW8FK0W!F!F8VV0FV	_@R1EXR0m0GVWF0c6DkO662@9XBGFR38V8894F0yFNmo2cW$F0a09W4_048J3@8_HVD0NV58V2k2J0ZB430	fakpR@NB\sUf`BLdTRbLrtrTRVQJBdVmRmTsT@ET@@@	Decoy	8
+:Uvzv;S:QytzEUSvUvvdzQyrinJCiIx2AbnENTayipajLrt1OVDx0z4YrI99W_8XW0o58501FX8cF1!V0	5DE0Sa8gr6F0Y0FFJBmGY42P0V9WduWTWB8K6HV5o!FcN4041FN0@4@W5022VHF0Rh2480I4wKX6G2I02ho50	fnsHb@LDUZS`AFRJIJJJIPhkS\u[t\tuTpKAEUBOQL@@	Decoy	9
+<datawarrior properties>
+<columnWidth_Table_Structure="250">
+<detailView="height[Data]=0.5;height[Structure]=0.5">
+<mainView="Table">
+<mainViewCount="5">
+<mainViewDockInfo0="root">
+<mainViewDockInfo1="Table	center">
+<mainViewDockInfo2="2D View	center">
+<mainViewDockInfo3="3D View	center">
+<mainViewDockInfo4="Structures	center">
+<mainViewName0="Table">
+<mainViewName1="2D View">
+<mainViewName2="3D View">
+<mainViewName3="Structures">
+<mainViewType0="tableView">
+<mainViewType1="2Dview">
+<mainViewType2="3Dview">
+<mainViewType3="structureView">
+<structureGridColumn_Structures="Structure">
+<structureGridColumns_Structures="6">
+<rowHeight_Table="120">
+</datawarrior properties>

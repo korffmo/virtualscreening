@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ParameterVS>
+    <Library>/home/korffmo1/git/VirtualScreening/virtualscreening/resources/TestData/5-HT1A_All0.dwar</Library>
+    <Query>/home/korffmo1/git/VirtualScreening/virtualscreening/resources/TestData/5-HT1A_All0_First10.dwar</Query>
+    <QueryIdentifier></QueryIdentifier>
+    <PathWorkDir>/home/korffmo1/tmp/tmp01</PathWorkDir>
+    <AddSupplierInfo>false</AddSupplierInfo>
+    <HitCombinationWithLogicalOR>false</HitCombinationWithLogicalOR>
+    <CheckForMissingDescriptors>true</CheckForMissingDescriptors>
+    <ComparisonMode>VS</ComparisonMode>
+    <Descriptors>
+        <Descriptor descriptor="FragFp" parameter="" minimumsimilarity="0.8" enabled="true"/>
+        <Descriptor descriptor="PathFp" parameter="" minimumsimilarity="0.8" enabled="true"/>
+        <Descriptor descriptor="SkelSpheres" parameter="" minimumsimilarity="0.8" enabled="true"/>
+        <Descriptor descriptor="Flexophore" parameter="" minimumsimilarity="0.85" enabled="true"/>
+    </Descriptors>
+</ParameterVS>

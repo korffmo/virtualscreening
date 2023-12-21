@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ParameterVS>
+    <Library>/home/korffmo1/git/VirtualScreening/virtualscreening/src/resources/testdatavs/ACE_100_Descriptors.dwar</Library>
+    <Query>/home/korffmo1/git/VirtualScreening/virtualscreening/src/resources/testdatavs/ACE_Query_Descriptors.dwar</Query>
+    <QueryIdentifier>Row No</QueryIdentifier>
+    <PathWorkDir>/home/korffmo1/tmp/tmp01</PathWorkDir>
+    <AddSupplierInfo>false</AddSupplierInfo>
+    <HitCombinationWithLogicalOR>true</HitCombinationWithLogicalOR>
+    <CheckForMissingDescriptors>true</CheckForMissingDescriptors>
+    <ComparisonMode>VS</ComparisonMode>
+    <Descriptors>
+        <Descriptor descriptor="FragFp" parameter="" minimumsimilarity="0.8" enabled="true"/>
+        <Descriptor descriptor="PathFp" parameter="" minimumsimilarity="0.8" enabled="true"/>
+        <Descriptor descriptor="SkelSpheres" parameter="" minimumsimilarity="0.8" enabled="true"/>
+        <Descriptor descriptor="Flexophore" parameter="" minimumsimilarity="0.85" enabled="true"/>
+        <Descriptor descriptor="PheSA" parameter="flexalign" minimumsimilarity="0.7" enabled="true"/>
+    </Descriptors>
+</ParameterVS>

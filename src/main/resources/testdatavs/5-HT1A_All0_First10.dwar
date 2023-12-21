@@ -1,0 +1,101 @@
+<datawarrior-fileinfo>
+<version="3.3">
+<created="1605194205651">
+<rowcount="10">
+</datawarrior-fileinfo>
+<column properties>
+<columnName="idcoordinates2D">
+<columnProperty="parent	Structure">
+<columnProperty="specialType	idcoordinates2D">
+<columnName="FragFp">
+<columnProperty="parent	Structure">
+<columnProperty="specialType	FragFp">
+<columnProperty="version	1.2.1">
+<columnName="Flexophore">
+<columnProperty="parent	Structure">
+<columnProperty="specialType	Flexophore">
+<columnProperty="version	5.0">
+<columnName="PathFp">
+<columnProperty="parent	Structure">
+<columnProperty="specialType	PathFp">
+<columnProperty="version	1.1">
+<columnName="SkelSpheres">
+<columnProperty="parent	Structure">
+<columnProperty="specialType	SkelSpheres">
+<columnProperty="version	1.1">
+<columnName="Structure">
+<columnProperty="specialType	idcode">
+</column properties>
+idcoordinates2D	FragFp	Flexophore	PathFp	SkelSpheres	Structure	Reference	affinity	company	drug	mode of action	receptor	receptor class	TestData	DatasetName
+36)\W(=.6s,Bx=)\,BJ)yki.|G}_}_|G~lixh.~SF*~Sh.v:`*	:UfzvzirS:vyttEjCuUfvhjQzUeoJCzvx@AEGYRDxTh_Tnqmk4u88_4yFXr1@Y1_@oW8J52R0kNX80XVV0F0	0FV12F4120490F860F04WV4!V@60F04Wk4!VD60F03WX4!NRW2F441V4!NNW!480FZ2Wm490VF60F011k4!NN1!678Fo1! 0L7WBB20N475YVNs72cL21081VF2LAAO0FV8wY11k_4B1kksNZVWV@8@4O0FN8BLYNN20c2DA74HBG3VN411lk42B8O0Fs8B5WFPAWsD40F61_X2qF4@2m0WVFV@5W4P4GVkk@51VF@2FX542m0ZF4kwB2FR60kBcJJm0W0LF4D2IWFg81F4B661WsA3VNB2VV295ZgV8Z4	1681@m84G0F0W0FM0DmFY128J205N2FRVcN020F4kYVFkO0FV!F16Z8W9V041FGVBZJAVV20F0a3g4040DJ20	1012//#A//&1/!4)1&7$2//-1/(A/+1)2011$2)1-1+2)1!1/-11/!2/*2/01$4$1-1/(3.2+4!62!1)1!2/02!1%4$2/!1$2/01$1/$2$11!1(4/)1*1*1/(101)2$1+1$2/%1%404$2,1/,1(2/,2&1(g#1#4#1,1//,1#1/03!101$1)1.15//$5(1/01$1///10126)1&2*402+	feoX`@DXtFlpJrJJJIIVIKJIQIDXJW`mzN[UUSUUTuMTp@@	Bioorg. Med. Chem. Lett. (2003) 13: 1429-1432	Ki: 4.1 nM	University Madrid and Barcelona	no	agonist	5-HT1A	5-HT (I Amine)	yes	5-HT1A_All1(50)
+xix=S~xixix=S~S~xixixhx=S~xix=xix=xix=xiS(x=x>S(x>xh	zxzKn1zOOnJ3M42DH9VFXN0HVX!h3d28F2V10203WF1!1!A1V!G2d0gG8F2F08$8H0Ve5404040V8F0	0NR1!41X04!F464F060VZ#464F060sN1!D80F011W4!V$ 1Z12VVN9o8110@3G090V410kB41V8wPV1VsJ20sJ91NH3104109ks115bVF21W0N3WNN6WF2165kF6104156cVNN2VVF310H2Wk44VV61VH14217cgV8J4N2IRA45X31i4WNVZFP2VWlV50kNcJP2VXOB1X0B8D6	12909k!X0c8V#FA804!81V051F24V80k210V4kG0uXJ080Xs#9l7Z10c8G2k_20H0@4KF62F20FWB450	&1//I)1(1/,1//,2#101+1!2#2//%2/)3#1)1&2//%5,5(102$2/-4)3#7!1/,1)1+209/!22#1/!2//1/)3&1)1(2/%2/&1&1)6!2//01//$3!601!1/&102*1%1.9/+2#2+1//,1%10l202!11.1!1/B/,1(2)2)201/02/%2%1$204(22/!1-1,1#1!1/$1(1//+	fmwab@GLULD`drljkzjrntyjwQpAEUUUP@TP@@	Curr. Med. Chem. (2001) 8 (9): 999-1034	Ki 5-HT1a: 0.221 nM		no		5-HT1A	5-HT (I Amine)	no	5-HT1A_All1(50)
+x=xiS(x=x=S(x=xiS~x=xixix=xix=xix=xiS(x=x=|`S(l0|F`*`*	vzUQvAvOURt2QB3MH9FGdNcHm2HXZ2988PTV50X111FY6F1!A0V023Bl6R33BYF0122F!403%5V0VcFV	0NR#411W401V@60F05Wk4!F89#11W401VB64F03Wl4!FNl!4$ !32FVC30Z92Vk2108kZ0VF46DE0WJJ3lNC0Glc61W22Kc@24WBV8F4730oM3Vc@0VB30mltNT9YFw2XXkN4DBm0WkF461VgA1kZ@1VR61VF30F50c0VZV8127V88pF21WJI4Vs81V4ZX1VYV8125aBV8Z4	02N0QV0FV2N8k$8c0H4080V0G1084V8022$H48c01V046k!88n5#F8l0Fa0V!14KF62V20F0BF50	*2%2,1(D!1////)301031%3/-2/,1!21%1/(2////*4/(2/)2%2#61)2/&103$1!2$110201(1/&10101%1/)2$2,2&1+2+122$2&3///(2$1)3//%1$101.@$4-1*2(101%1)2$9+1/$1/#12/+1,10o01020202/01$1*D+2$1#1&101$2%1,1(2$2.2/(1*13////,1#1!13*2/05$1(	fcpB@KMvBPRYWVUuVUmvcCVkt\x@Jjjj@HjrD@@	DailyDrugNews.com 21. Nov. 2003 / WO 03087086	not given in publication	Merck KGaA	no	not given in publication	5-HT1A / 5-HT1D / 5-HT2A	5-HT (I Amine)	no	5-HT1A_All1(50)
+S~xh.hS~S~.hsp\}Bz}^q5}^q5}^q5^}}^}^^}}^^}q5}^}^q5	;vvfzOzNtIQB37H90tcODHX2H2g30@BHUV59X130Ff601!@90204Rl243E4n01122KZ0D0180F04!FX0GV	0FNG!N1X04D0F864F04Wl4!F864F06X04D0FB60F02WV4!sR1!4$ !10VT82kJ4VsF309NggB4FsZ30V175YgV8J451VVH5FJ62FB710J1C5V88ZtZ120gV8Z5Z140VF4818L@VVB0VcH50F4RFD2Fo610oH5V8B99088wc20VRD4kg620420VJ210F90JGs22CH	02NVAV1FV808k!60880P4062V01908DV8F220H!H60c01!44k#8YC!VN0l0Fa2WV034KFa2Z70G0D010	/1/$10B!2.1/&1!1/(6$1,1///(101#3/&1%1201//*21-2/,2(21/(2,302&1/&2101,1#301%1/)1(1//,12%1$1/+1%2(2$1*1+1+1%1-103/03%2.4101*1#6/1!1/)2!1.7/////#1)2!10l1$5(2*1$1%6#H01)3!101#1/-1$1/-4!1//14///#1+101-1!12/!12(2-	fewQ@@ANAdTRTraRRbRrbRhpTdyGN@Bfjji`@J@@@	J. Med. Chem. (2004) 47 (19): 4677-4683	IC50: 5-HT1A: 0.8 nM / D2: 5.6 nM		no	agonist	5-HT1A / D2	5-HT (I Amine)	no	5-HT1A_All1(50)
+H)~Uw<.>b+.iS(x>.>.>xhS(x>xhS(x>x>S(x>xhS(x>x>S(xh	vzUtvdUSzKxpQRPQ2U0n39em66H1CV08DPR031X91FlX41WX02NW904R8oF3_J02V1231!J01#106V$k	0cN1!464F060VNG!J74F010l0F!464F021l4!FD60F04Wk4!NR13F4 !EVBA5V4JF@B2Vq110D11F2HB9O0G0A82818Gg66F8668088sRB3G8H2kR20F850kN1C8V88ss	02P0Ac0FV@0gXNF02N218a281V1FF094V8812k0XVJcJkN_F80@80sVcW4V24!o20a2ZV4cWKF6HV2F90B43V	02//!1!8/.1/.103!206$2#11,1+1011)1-102!12)2*1/#4%4!1#1*2///2&1-1!13//,1/(102//.2201&1$2,1&1.1$1!1%201*2,1%1%1*1/#2(1,4/#1//)101.501!2/#1!1/1(1)7+1.102/-1#1!1/,1j%501%4/&4#E//)2/1/-2!1/01!1!101%5/&11//01$1!2(1(401/*501+	fewHB@LFld@PeL|jornrmbbcQSt]LaAEUT@ED@@@	DailyDrugNews.com 9. Oct. 2003 / WO 03074518	IC50 1A: 0.2 nM / 2A: 13 nM	Merck KGaA	no	agonist	5-HT1A / 5-HT2A	5-HT	no	5-HT1A_All1(50)
+*Fl0.iS(:0xhx=S~.=.>xiS(x>xix>xix>S~xixhx>S~\)xi~Os6	;rvrttOuBH_V7D2sHxXR6HkVGX93V24JGpW82k1FF14FG01A1X0VJHs0VG8F21#2268k02X9404040VFF0	0NN1!B1Wk4!F464F060FNG!N21V4!cN1!B3WV4!cV1!464F02# #D30sX40sJ30FB30FB10V4VB0FG@A82410Vg93kZF20R61FF30V81E5V88_013WN@214810R60mlOQ82810FBU4Gc610451F4gHL@2OBAX2l2JQ90lVNc@4ci894O0FsA82413FV72Fg510N41VF110840kF40JlPQ82811kc8iEVFD21s240sFHCA9VH0cJW3Fk	16CVCk11m0cFV!FF9Q0D!81k041N1Da0Nk712c1F!eXJF#V#9l7a!V0F2F_20mkN05F42F20FWB410	-2/$1!3D////101#4$1.1$1///&209!11(1//!1/!1/%21!1(1)1%1/,31&1/*1*41.1084$3/!2%1(2//*1+2+2&1&401/1-1!1//%2///$1!1/01!7$1/04$1+3/&8//$1///+10n%1$1!3*1&1#2#D,3/&2*1)201/4*2-1+2&112/*1$41/01*1)1#1&104+1)2/!	fm``@G@EdbbdTUVrRbRffQJLxhqVsWPUPQU@DMUA@@@	DailyDrugNews.com 3. Juni 2004 / WO 04035561	Ki: D2: 0.63 nM / 5-HT1A: 6.31 nM	Pierre Fabre	no	D2: antagonist / 5-HT1A: agonist	D2 / 5-HT1A	Dopamine / 5-HT	no	5-HT1A_All1(50)
+}J=.W(spp3x=J)S(xix=xiS~x=xixix>xix>S~S(xixhx>S~	;vzfzOrxxfQB@z6A8sAOg1rMP0hW0@BPRV39XC08Ib4!X0at1@0FTN7oAbK320129804R09014140V$V	0FV1!41X04!F464F060cN1!H70F0218N1!8F4!11W4!kNl!4$ !1Re40F655108VN64HB74k4678W08wWZ140VFJ@2kc30V@20N4LBA6oZ8D4m0WFLF4B24a023XVTB762GNR1l0F67VN8gR@2lFA5W031H1V2279	V282@#V8V0V$c0822281V8FF050V8N32F041J8JNcd08!s0119W54!10G2FY2VVJV_KN6682k0ZB510	//#1010B/!12/-1+7&4$2#11/)301/1-13)1$3///#2$2/,1,2/+2/*2!3/%1/01//#2-1&1$5&1/)1!1.2$2$13(3$1%1!1!1-1/#1$1%1%4,21$1//%2!101.201!2/)102/2,12(1/,1///,h%201%1/+8*2/*2!2/-1/@!1#1*2$402)502)1///&2,1#2!1/)5+20	fi{Pb@MADT@QdbbVTJTRVTTRVJ^Bt]LtuUUAAE@@@	J. Med. Chem. (2001) 44 (3): 418-428	Ki: 5 nM		no	antagonist	5-HT1A	5-HT (I Amine)	no	5-HT1A_All1(50)
+h.(S~S>.h.h.>.~Sixi.~S~Sh.~Shxh.~S~Si.~Shxh.~S~Sh.	;QvQztUxxYvwuQ3YGPj8gLy63d_Z0Pd8B22F2112FX!53V9FW08H88JJ3e022!21!1B2O0F0A02V$F	0NN1!N1X04!F464F060VNG!J74F010sN1!H70F01Wk4C0F$ #BV8V531818k4B322oD0VVJe71FG8RU90XN22WVH32YGkJF5lF30VF41VB70k81D87BV8J5Z140dci4E2Fm48D4JZFm6@3	02N0AV0FV80BV#F88404085V0GG181V8912H!1J0FuVl0801k!48W5Z0F40k2Fb2VV0gGKF6202FFVB410	012/$1.D/!1//01+2$61#502///*21(1-11/)101&13%2//%1,5/)41/+3/6//*1/&1%1!2-1,1/$2*1%2$1$1.3/+1//&4/-2%2!1//$105*1/,1$1(3$2#4202//(1%1/.2/k%3(1(1/!F//%2)102&1!1//*103%202(14%2//!2)1%2+1-3/,@(1$	fewq@@GYjCIELeCDeeDeeDdsakIrN]@AUUUU@@THEKP@	J. Med. Chem. (2001) 44 (25): 4431-4442	Ki: 5-HT1A: 0.028 nM / alpha1: 767 nM		no	agonist	5-HT1A / Adrenergic alpha 1	5-HT / Adrenergic (I Amine)	no	5-HT1A_All1(50)
+h.(S~S>.h.hxh.>.~S~Sixi.~Shx~Shxh.~S~Si.~Shxh.~S~Sh.	;QvAzOUxxYQBPU3AFPfNgHy62Vhb0@8NBV3N2118FY!320AGW!H@cJJ3eF22!29!8B29!4A42o8#F	0NV1!411W401V@60F041W4!V864F051l4!FD60F04Wk4!NR13F4$ 0m0X0FV_9kN40k428441kiF1sF134VF227Z0d231Fi5WVskRF1lJ4418510Z1@8_BV8F466ksG3FZ@0V8ZRH31sZ61cJ408H0V8@NIBO0FsA8251	12N0Ak0GX80BV#N@B404085V0GG181V8912H!1J0FuVl0821k!48W5Z0FB0l2Fb2Vk0gGKF6202FFVB410	012//$G+1%1///#61#4$1*1//,101/03//1#1#3)2%1/+1,2%1.3!11/+1/4/*1.1#3/)12/1,1//&2$1$102,3,1-1+13%2/!402/*24/.1.105$2/+21*1!1$1!22$6!2//&2&1//1,10m#10301%1#3/&D,2/(2!21/!1%1//&1$302)5/%1/,1/!1-3%1/%9(1$	fmoq@@OEZCIEMDhcBdhdlhdnBUkIYkhBBjjjj@@haH`@	J. Med. Chem. (2001) 44 (25): 4431-4442	Ki: 5-HT1A: 0.48 nM / D2: 117nM / alpha1: 55nM		no	agonist	5-HT1A / D2 / Adrenergic alpha 1	5-HT / Dopamine / Adrenergic (I Amine)	no	5-HT1A_All1(50)
+S~.>.hxh.i.>S~x>S~xhxhS(x>x>S(x>zdW(\}p3}J~Sh.h.~Sh.>.	;UvUzvU:nzyzUmv_uvzdLTJbIUrdDhxDXYCX37AOv1mS2VPKl4wm@d4tIsTIHFV6C40@L6rDSCGZ6XR2010	0NV1!41X04!F464F060FNG!N2WV4018R1!83WV4!cV1!864F020sN1!D80F011W4!V0 #3VX2F4FR8m0WkGSC24WBV8F45EGF61V8NXBXYsFg9@6VWsI8241O0G0@@6XFO8CX0VVNFDC2kk8VFksNOCWNBD6m0WkFR8D1sFT84fNFZ8a9Vc11VNNe10ZlnoP30lsQ8251G0454kRJe@m0Y0F	4X9@9V1FV80VV!4F98822081V0HG868V8NW6G0FWo2FuXJ08!VX!9W5_!88G2F_28VF855F42F2NFWB490	/(1-1B/!2+1*1/+202!5#1+31/+1#1/.1//#101)2#1$1#1/!2#3(1#5*2!102/!1/!3%1/2//(2/!1,13#1$2(1!1(2%1$1/!2$4&1,1%131)1(2*1(1/!402+1.1!1!11.1(21*22!5*1/%1(2/%8$1202.2&1%1/1(1/2/m+2!1/%101!B02//#2+2&1//*2%1$204(14/1//,2$202!1+2#1/(4$1(	ec`TB@@AO@FLeldTRbaTJVTTVRVUCDbcgaUPtuAQAUUUPATPHATQD@@	DailyDrugNews.com 17.Jan.2002	Ki: 1.3 nM		no	antagonist	5-HT1A	5-HT (I Amine)	no	5-HT1A_All1(50)
+<hitlist data>
+<hitlistName="<selection>">
+<hitlistData="@H">
+</hitlist data>
+<datawarrior properties>
+<axisColumn_2D View_0="<unassigned>">
+<axisColumn_2D View_1="<unassigned>">
+<axisColumn_3D View_0="<unassigned>">
+<axisColumn_3D View_1="<unassigned>">
+<axisColumn_3D View_2="<unassigned>">
+<chartType_2D View="scatter">
+<chartType_3D View="scatter">
+<columnFilter_Table="">
+<columnWidth_Table_DatasetName="78">
+<columnWidth_Table_Reference="78">
+<columnWidth_Table_Structure="97">
+<columnWidth_Table_TestData="78">
+<columnWidth_Table_affinity="78">
+<columnWidth_Table_company="78">
+<columnWidth_Table_drug="78">
+<columnWidth_Table_mode of action="78">
+<columnWidth_Table_receptor="78">
+<columnWidth_Table_receptor class="78">
+<detailView="height[Data]=0.5;height[Structure]=0.5">
+<faceColor3D_3D View="-1250054">
+<fastRendering_2D View="false">
+<fastRendering_3D View="false">
+<headerLines_Table="2">
+<mainSplitting="0.71815">
+<mainView="Table">
+<mainViewCount="4">
+<mainViewDockInfo0="root">
+<mainViewDockInfo1="Table	center">
+<mainViewDockInfo2="2D View	center">
+<mainViewDockInfo3="3D View	center">
+<mainViewInFront0="true">
+<mainViewName0="Table">
+<mainViewName1="2D View">
+<mainViewName2="3D View">
+<mainViewName3="Structures">
+<mainViewType0="tableView">
+<mainViewType1="2Dview">
+<mainViewType2="3Dview">
+<mainViewType3="structureView">
+<rightSplitting="0.65944">
+<rotationMatrix_3D View00="1">
+<rotationMatrix_3D View01="0">
+<rotationMatrix_3D View02="0">
+<rotationMatrix_3D View10="0">
+<rotationMatrix_3D View11="1">
+<rotationMatrix_3D View12="0">
+<rotationMatrix_3D View20="0">
+<rotationMatrix_3D View21="0">
+<rotationMatrix_3D View22="1">
+<rowHeight_Table="80">
+<scaleStyle_2D View="frame">
+<scaleStyle_3D View="arrows">
+<scatterplotMargin_2D View="0.025">
+<scatterplotMargin_3D View="0.025">
+<structureGridColumn_Structures="Structure">
+<structureGridColumns_Structures="6">
+</datawarrior properties>

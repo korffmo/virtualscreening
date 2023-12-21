@@ -1,0 +1,41 @@
+<datawarrior-fileinfo>
+<version="3.3">
+<created="1605194240019">
+<rowcount="3">
+</datawarrior-fileinfo>
+<column properties>
+<columnName="Structure">
+<columnProperty="specialType	idcode">
+<columnProperty="idColumn	IDcode">
+</column properties>
+Structure
+fewp`@DZlANQQJJIIKQSSF[QUc^bT\vhJBbjZZhj`RPJ`
+fewP`@DZ@gHheEDdehiicMhjqoQJN[TEAQUMMTUPIHEP
+fbuP`@DZ@GHhhhdmMEYeHugMTuUULuPDdTXp
+<hitlist data>
+<hitlistName="<selection>">
+<hitlistData="D">
+</hitlist data>
+<datawarrior properties>
+<columnFilter_Table="">
+<columnWidth_Table_Structure="100">
+<currentRecord="0">
+<detailView="height[Data]=0.5;height[Structure]=0.5">
+<filter0="#structure#	Structure	#disabled#">
+<formLayout_Untitled Form View="TableLayout,5,8.0,-1.0,8.0,-1.0,8.0,9,8.0,-1.0,8.0,-1.0,8.0,-1.0,8.0,-1.0,8.0">
+<formObjectCount_Untitled Form View="1">
+<formObjectInfo_Untitled Form View_0="Structure	structure	1, 1, 1, 7, full, full">
+<headerLines_Table="2">
+<mainSplitting="0.70612">
+<mainView="Table">
+<mainViewCount="2">
+<mainViewDockInfo0="root">
+<mainViewDockInfo1="Table	center">
+<mainViewInFront0="true">
+<mainViewName0="Table">
+<mainViewName1="Untitled Form View">
+<mainViewType0="tableView">
+<mainViewType1="formView">
+<rightSplitting="0.64053">
+<rowHeight_Table="80">
+</datawarrior properties>

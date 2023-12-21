@@ -1,0 +1,63 @@
+<datawarrior-fileinfo>
+<version="3.3">
+<created="1576686818176">
+<rowcount="1">
+</datawarrior-fileinfo>
+<column properties>
+<columnName="FragFp">
+<columnProperty="parent	Structure">
+<columnProperty="specialType	FragFp">
+<columnProperty="version	1.2.1">
+<columnName="Structure">
+<columnProperty="specialType	idcode">
+<columnName="PathFp">
+<columnProperty="parent	Structure">
+<columnProperty="specialType	PathFp">
+<columnProperty="version	1.1">
+</column properties>
+FragFp	PathFp	Structure	Target	Name
+ttFG!kF8(2#V8/!28!F&8-2/*	02809#V)8$2!V!1$8(V!8&V$15%F0FZ%40F02020F0B010	deT@`@BDeVUFZh@@@@	ACE	C01535869
+<datawarrior properties>
+<axisColumn_2D View_0="<unassigned>">
+<axisColumn_2D View_1="<unassigned>">
+<axisColumn_3D View_0="<unassigned>">
+<axisColumn_3D View_1="<unassigned>">
+<axisColumn_3D View_2="<unassigned>">
+<chartType_2D View="scatter">
+<chartType_3D View="scatter">
+<columnFilter_Table="">
+<columnWidth_Table_Name="79">
+<columnWidth_Table_Structure="248">
+<columnWidth_Table_Target="79">
+<detailView="height[Data]=0.5;height[Structure]=0.5">
+<faceColor3D_3D View="-1250054">
+<mainSplitting="0.72139">
+<mainView="Table">
+<mainViewCount="4">
+<mainViewDockInfo0="root">
+<mainViewDockInfo1="Table	center">
+<mainViewDockInfo2="2D View	center">
+<mainViewDockInfo3="3D View	center">
+<mainViewInFront0="true">
+<mainViewName0="Table">
+<mainViewName1="2D View">
+<mainViewName2="3D View">
+<mainViewName3="Structures">
+<mainViewType0="tableView">
+<mainViewType1="2Dview">
+<mainViewType2="3Dview">
+<mainViewType3="structureView">
+<rightSplitting="0.67434">
+<rotationMatrix_3D View00="1">
+<rotationMatrix_3D View01="0">
+<rotationMatrix_3D View02="0">
+<rotationMatrix_3D View10="0">
+<rotationMatrix_3D View11="1">
+<rotationMatrix_3D View12="0">
+<rotationMatrix_3D View20="0">
+<rotationMatrix_3D View21="0">
+<rotationMatrix_3D View22="1">
+<rowHeight_Table="80">
+<structureGridColumn_Structures="Structure">
+<structureGridColumns_Structures="6">
+</datawarrior properties>

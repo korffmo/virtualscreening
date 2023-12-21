@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ParameterVS>
+    <Library>/home/korffmo1/git/VirtualScreening/virtualscreening/resources/TestData/ACE_100.dwar</Library>
+    <Query>/home/korffmo1/git/VirtualScreening/virtualscreening/resources/TestData/ACE_Query_SubStruct.dwar</Query>
+    <QueryIdentifier></QueryIdentifier>
+    <PathWorkDir>/home/korffmo1/tmp/tmp01</PathWorkDir>
+    <AddSupplierInfo>false</AddSupplierInfo>
+    <HitCombinationWithLogicalOR>false</HitCombinationWithLogicalOR>
+    <CheckForMissingDescriptors>true</CheckForMissingDescriptors>
+    <ComparisonMode>VS</ComparisonMode>
+    <Descriptors>
+        <Descriptor descriptor="SSSQinB" parameter="" minimumsimilarity="0.5" enabled="true"/>
+    </Descriptors>
+</ParameterVS>

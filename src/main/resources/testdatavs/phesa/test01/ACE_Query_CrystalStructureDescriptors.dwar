@@ -1,0 +1,50 @@
+<datawarrior-fileinfo>
+<version="3.3">
+<rowcount="00000000001">
+<application="DWARFileHandler">
+</datawarrior-fileinfo>
+<column properties>
+<columnName="idcoordinates2D">
+<columnProperty="parent	Structure">
+<columnProperty="specialType	idcoordinates2D">
+<columnName="FragFp">
+<columnProperty="parent	Structure">
+<columnProperty="specialType	FragFp">
+<columnProperty="version	1.2.1">
+<columnName="idcoordinates3D">
+<columnProperty="parent	Structure">
+<columnProperty="specialType	idcoordinates3D">
+<columnName="Structure">
+<columnProperty="specialType	idcode">
+<columnName="conformerSet">
+<columnProperty="parent	Structure">
+<columnProperty="specialType	conformerSet">
+<columnName="SkelSpheres">
+<columnProperty="parent	Structure">
+<columnProperty="specialType	SkelSpheres">
+<columnProperty="version	1.1">
+</column properties>
+idcoordinates2D	FragFp	idcoordinates3D	Structure	4LetterCode	Target	Name	Row No	conformerSet	SkelSpheres
+	?yzU:vzxvjjhuxfzCjAfUwwoSvnh@@jMYNDzyVa6dmOH9mhXW6c4rnFTgG4@kk0493F0F0V@881a0n0	@r-Vf~uNkdJD|`|W.JuM=Yg)Ar;-px=\l/IruQ/p:/BVm1J.J{BVBVJ{PH]s.yC]\u|N`KRy>AfZL~Bkd||d	fkoqP@BZzADdyrJZJIRqIQJIEJYK`mgZjejjijh@HqbJed@	1o86	ACE		1	fkoqP@BZzADdyrJZJIRqIQJIEJYK`mgZjejjijh@HqbJed@ @r-Vf~uNkdJD|`|W.JuM=Yg)Ar;-px=\l/IruQ/p:/BVm1J.J{BVBVJ{PH]s.yC]\u|N`KRy>AfZL~Bkd||d	//(D)1(2///#8$4$3//(1(3)1*4#1////#6#2/&1$2///%1$1#2)203/$6/$5/!341+1)3&3/#5.1(1$5(6/#1%1/!1)4#2$1(2%2)201,1%2$2.2/&4/01/+2!2!1+2/*1&2/+1/!101(7$m%5%2,1%1)@/+1/#6.1&1.181/*1%103!11!1)1(1$1/-1/%3/,2)1#
+<datawarrior properties>
+<columnWidth_Table_Structure="250">
+<detailView="height[Data]=0.5;height[Structure]=0.5">
+<mainView="Table">
+<mainViewCount="5">
+<mainViewDockInfo0="root">
+<mainViewDockInfo1="Table	center">
+<mainViewDockInfo2="2D View	center">
+<mainViewDockInfo3="3D View	center">
+<mainViewDockInfo4="Structures	center">
+<mainViewName0="Table">
+<mainViewName1="2D View">
+<mainViewName2="3D View">
+<mainViewName3="Structures">
+<mainViewType0="tableView">
+<mainViewType1="2Dview">
+<mainViewType2="3Dview">
+<mainViewType3="structureView">
+<structureGridColumn_Structures="Structure">
+<structureGridColumns_Structures="6">
+<rowHeight_Table="120">
+</datawarrior properties>
