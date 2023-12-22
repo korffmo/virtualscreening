@@ -1,0 +1,68 @@
+package com.actelion.research.chem.vs.business;
+
+import com.actelion.research.chem.descriptor.DescriptorHandler;
+import com.actelion.research.chem.descriptor.DescriptorHandlerExtendedFactory;
+import com.actelion.research.chem.descriptor.DescriptorHandlerSkeletonSpheres;
+import com.actelion.research.chem.descriptor.GenDescriptorMulticore;
+import com.actelion.research.chem.descriptor.scaffold.DescriptorHandlerWeightedFragments;
+import com.actelion.research.chem.phesa.DescriptorHandlerShape;
+import com.actelion.research.chem.vs.business.xml.ModelVSXML;
+import com.actelion.research.util.ConstantsDWAR;
+import com.actelion.research.util.IO;
+import com.actelion.research.util.datamodel.StringDouble;
+import jakarta.xml.bind.JAXBException;
+import org.xml.sax.SAXException;
+
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class VSOnTheFly {
+
+    private List<DescriptorHandler> liDescriptorHandler;
+    private List<StringDouble> liDescriptorNameThresh;
+    private File workdir;
+
+    public VSOnTheFly(List<StringDouble> liDescriptorNameThresh, File workdir) {
+        this.liDescriptorNameThresh = liDescriptorNameThresh;
+        this.workdir = workdir;
+
+
+
+    }
+
+    public File vs(File fiDWARDescriptors, File fiDWARQuery) throws Exception {
+
+        ModelVSXML modelXML = ModelVSXMLHelper.createParameterVS(fiDWARDescriptors, fiDWARQuery, liDescriptorNameThresh, workdir);
+
+        modelXML.setQueryIdentifier(null);
+
+        // System.out.println(modelXML.toStringXML());
+
+        String nameVSResultElusive = IO.getBaseName(fiDWARQuery) + "Elusive" + ConstantsDWAR.DWAR_EXTENSION;
+        String nameVSResultSummary = IO.getBaseName(fiDWARQuery) + "Summary" + ConstantsDWAR.DWAR_EXTENSION;
+
+        modelXML.setNameDWARResultElusive(nameVSResultElusive);
+
+        modelXML.setNameDWARResultSummary(nameVSResultSummary);
+
+
+        VSParallel vsParallel = new VSParallel(modelXML);
+
+        vsParallel.run();
+
+
+        return new File(vsParallel.getFileOutDWAR());
+    }
+
+    public File genDescriptors(File fiDWAR, String tagIdCode, List<DescriptorHandler> liDescriptorHandler) throws Exception {
+        GenDescriptorMulticore genDescriptorMulticore = new GenDescriptorMulticore(false);
+        String name = IO.getBaseName(fiDWAR) + "Descriptors" + ConstantsDWAR.DWAR_EXTENSION;
+        File fiDWARDescriptors = new File(workdir, name);
+        genDescriptorMulticore.generate(fiDWAR, tagIdCode, fiDWARDescriptors, liDescriptorHandler);
+        return fiDWARDescriptors;
+    }
+
+}
