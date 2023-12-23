@@ -27,7 +27,7 @@ public class VSOnTheFlyMain {
             "-q dwar with query molecule. " + "\n" +
             "-w workdir. " + "\n" +
             "-p Threshold PheSA. " + "\n" +
-            "-p Threshold SkeletonSpheres. " + "\n" +
+            "-s Threshold SkeletonSpheres. " + "\n" +
             "";
 
     public static void main(String[] args) throws Exception {
