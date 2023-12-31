@@ -19,8 +19,8 @@ import java.util.List;
 /**
  * GenerateDescriptorsVSTest
  *
- * <p>Copyright: Idorsia Pharmaceuticals Ltd., Inc. All Rights Reserved
- * This software is the proprietary information of Idorsia Pharmaceuticals, Ltd.
+
+
  * Use is subject to license terms.</p>
  * Created by korffmo1 on 21.06.18.
  */
@@ -34,7 +34,7 @@ public class GenerateDescriptorsVSTest {
     static final String USAGE =
         "GenerateDescriptorsShapeVSTest\n" +
         "Modest von Korff\n" +
-        "Idorsia Pharmaceuticals Ltd.\n" +
+
         "Hegenheimermattweg 91\n" +
         "CH-4123 Allschwil\n" +
         "2018\n" +

@@ -11,7 +11,7 @@ import java.io.IOException;
 
 /**
  * Modest v. Korff
- * Idorsia Pharmaceuticals Ltd.
+
  * 28.05.2021 Start implementation
  **/
 public class PheSACreateMain {
