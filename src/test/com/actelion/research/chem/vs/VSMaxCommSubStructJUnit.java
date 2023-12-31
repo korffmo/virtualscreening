@@ -18,17 +18,14 @@
  *
  */
 
-package com.actelion.research.chem.vs;
+package org.openchemlib.chem.vs;
 
-import com.actelion.research.chem.vs.business.InfoVS;
-import com.actelion.research.chem.vs.business.VSParallel;
-import com.actelion.research.chem.vs.business.xml.ModelVSXML;
-import com.actelion.research.chem.vs.test.ConstantsVSTest;
-import com.actelion.research.util.UserDirsDefault;
+import org.openchemlib.chem.vs.business.InfoVS;
+import org.openchemlib.chem.vs.business.VSParallel;
+import org.openchemlib.chem.vs.business.xml.ModelVSXML;
+import org.openchemlib.chem.vs.test.ConstantsVSTest;
 import com.actelion.research.util.UserDirsDefault;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.JUnit4;
 
 import java.io.File;
 import java.net.URL;

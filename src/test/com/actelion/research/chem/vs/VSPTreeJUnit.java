@@ -1,12 +1,12 @@
 package com.actelion.research.chem.vs;
 
 import com.actelion.research.chem.descriptor.*;
-import com.actelion.research.chem.vs.business.ConstantsVS;
-import com.actelion.research.chem.vs.business.InfoVS;
-import com.actelion.research.chem.vs.business.VSParallel;
-import com.actelion.research.chem.vs.business.xml.DescriptorXML;
-import com.actelion.research.chem.vs.business.xml.ModelVSXML;
-import com.actelion.research.chem.vs.test.ConstantsVSTest;
+import org.openchemlib.chem.vs.business.ConstantsVS;
+import org.openchemlib.chem.vs.business.InfoVS;
+import org.openchemlib.chem.vs.business.VSParallel;
+import org.openchemlib.chem.vs.business.xml.DescriptorXML;
+import org.openchemlib.chem.vs.business.xml.ModelVSXML;
+import org.openchemlib.chem.vs.test.ConstantsVSTest;
 import com.actelion.research.util.*;
 import com.actelion.research.util.datamodel.StringDouble;
 import org.junit.Test;

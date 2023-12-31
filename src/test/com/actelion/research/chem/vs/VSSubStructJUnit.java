@@ -20,10 +20,9 @@
 
 package com.actelion.research.chem.vs;
 
-import com.actelion.research.chem.vs.business.InfoVS;
-import com.actelion.research.chem.vs.business.VSParallel;
-import com.actelion.research.chem.vs.business.xml.ModelVSXML;
-import com.actelion.research.util.UserDirsDefault;
+import org.openchemlib.chem.vs.business.InfoVS;
+import org.openchemlib.chem.vs.business.VSParallel;
+import org.openchemlib.chem.vs.business.xml.ModelVSXML;
 import com.actelion.research.util.UserDirsDefault;
 import org.junit.Test;
 import org.junit.runner.RunWith;

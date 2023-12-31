@@ -4,7 +4,7 @@ import com.actelion.research.chem.descriptor.DescriptorConstantsExtended;
 import com.actelion.research.chem.descriptor.DescriptorHandler;
 import com.actelion.research.chem.descriptor.DescriptorHandlerExtendedFactory;
 import com.actelion.research.chem.descriptor.GenDescriptorMulticore;
-import com.actelion.research.chem.vs.test.ConstantsVSTest;
+import org.openchemlib.chem.vs.test.ConstantsVSTest;
 import com.actelion.research.util.ConstantsDWAR;
 import com.actelion.research.util.IO;
 import com.actelion.research.util.UserDirsDefault;

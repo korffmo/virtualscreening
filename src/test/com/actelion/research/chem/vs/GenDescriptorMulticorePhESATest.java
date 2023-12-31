@@ -30,13 +30,12 @@ import com.actelion.research.chem.dwar.DWARRecord;
 import com.actelion.research.chem.dwar.toolbox.export.ConvertString2PheSA;
 import com.actelion.research.chem.phesa.DescriptorHandlerShape;
 import com.actelion.research.chem.phesa.PheSAMolecule;
-import com.actelion.research.chem.vs.test.ConstantsVSTest;
+import org.openchemlib.chem.vs.test.ConstantsVSTest;
 import com.actelion.research.util.*;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
-import java.io.InputStream;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Collections;
