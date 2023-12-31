@@ -4,11 +4,11 @@ package com.actelion.research.chem.vs.business;
 /**
  * 
  * SubstructSearchParallel
- * <p>Copyright: Actelion Ltd., Inc. All Rights Reserved
+*
 
  * Use is subject to license terms.</p>
  * @author Modest von Korff
- * @version 1.0
+  *
  * 10 Nov 2008 MvK: Start implementation
  *  5 May 2011 MvK: SubstructSearch-->SubstructSearchParallel
  */

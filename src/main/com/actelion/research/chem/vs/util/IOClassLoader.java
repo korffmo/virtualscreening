@@ -8,11 +8,11 @@ import java.net.URL;
 /**
  * 
  * IOClassLoader
- * <p>Copyright: Actelion Ltd., Inc. All Rights Reserved
+*
 
  * Use is subject to license terms.</p>
  * @author Modest von Korff
- * @version 1.0
+  *
  * Sep 16, 2013 MvK Start implementation
  */
 public class IOClassLoader {

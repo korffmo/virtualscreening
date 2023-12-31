@@ -14,11 +14,11 @@ import com.actelion.research.util.BitUtils;
  * 
  * PerformanceVectorComparisonParallel
  * Creates dummy descriptors and calculates similarities. 
- * <p>Copyright: Actelion Ltd., Inc. All Rights Reserved
+*
 
  * Use is subject to license terms.</p>
  * @author Modest von Korff
- * @version 1.0
+  *
  * Jul 18, 2012 MvK: Start implementation
  */
 public class PerformanceVectorComparisonParallelMemory {

@@ -2,11 +2,11 @@ package com.actelion.research.chem.vs.business.dualvs;
 
 /**
  * InfoDualVS
- * <p>Copyright: Actelion Ltd., Inc. All Rights Reserved
+*
 
  * Use is subject to license terms.</p>
  * @author Modest von Korff
- * @version 1.0
+  *
 
  * Apr 01. 2016  MvK Start implementation
  */

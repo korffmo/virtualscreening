@@ -18,11 +18,11 @@ import java.util.List;
 
 /**
  * DescriptorsXML
- * <p>Copyright: Actelion Ltd., Inc. All Rights Reserved
+*
 
  * Use is subject to license terms.</p>
  * @author Modest von Korff
- * @version 1.0
+  *
  * Aug 27, 2013 MvK Start implementation
  */
 @XmlRootElement(name="Descriptors")

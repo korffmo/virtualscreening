@@ -16,11 +16,11 @@ import java.util.List;
 
 /**
  * CheckForMissingDescriptors
- * <p>Copyright: Actelion Ltd., Inc. All Rights Reserved
+*
 
  * Use is subject to license terms.</p>
  * @author Modest von Korff
- * @version 1.0
+  *
  * Sep 18, 2013 MvK Start implementation
  */
 public class CheckForMissingDescriptors {

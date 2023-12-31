@@ -18,11 +18,11 @@ import com.actelion.research.util.UserDirsDefault;
 
 /**
  * CentralAtomRemoverMain
- * <p>Copyright: Actelion Ltd., Inc. All Rights Reserved
+*
 
  * Use is subject to license terms.</p>
  * @author Modest von Korff
- * @version 1.0
+  *
  * Apr 16, 2014 MvK Start implementation
  */
 public class CentralAtomRemoverMain {

@@ -13,11 +13,11 @@ import com.actelion.research.util.ArrayUtils;
  * The coordinating atoms are set to fragments.
  * The resulting atoms can be used for a substructure based virtual screening.
  * Developed for anti-infectives project
- * <p>Copyright: Actelion Ltd., Inc. All Rights Reserved
+*
 
  * Use is subject to license terms.</p>
  * @author Modest von Korff
- * @version 1.0
+  *
  * Apr 16, 2014 MvK Start implementation
  */
 public class CentralAtomRemover {

@@ -4,11 +4,11 @@ import static org.junit.runner.JUnitCore.runClasses;
 
 /**
  * TestSuiteVS
- * <p>Copyright: Actelion Ltd., Inc. All Rights Reserved
+*
 
  * Use is subject to license terms.</p>
  * @author Modest von Korff
- * @version 1.0
+  *
  * Sep 17, 2013 MvK Start implementation
  */
 public class TestSuiteVS {

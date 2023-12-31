@@ -29,7 +29,7 @@ import java.util.List;
 
 /**
  * VSJUnit
- * <p>Copyright: Actelion Ltd., Inc. All Rights Reserved
+*
 
  * Use is subject to license terms.</p>
  * @author Modest von Korff

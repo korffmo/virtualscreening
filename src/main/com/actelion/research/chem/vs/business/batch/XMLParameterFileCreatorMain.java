@@ -18,11 +18,11 @@ import java.util.List;
 
 /**
  * XMLParameterFileCreator
- * <p>Copyright: Actelion Ltd., Inc. All Rights Reserved
+*
 
  * Use is subject to license terms.</p>
  * @author Modest von Korff
- * @version 1.0
+  *
  * Mar 5, 2014 MvK Start implementation
  */
 public class XMLParameterFileCreatorMain {

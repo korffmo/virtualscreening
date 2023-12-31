@@ -11,11 +11,11 @@ import java.util.concurrent.atomic.AtomicInteger;
  * 
  * PerformanceVectorComparisonParallel
  * Just does the prallel calculationl, does not need memory at all. 
- * <p>Copyright: Actelion Ltd., Inc. All Rights Reserved
+*
 
  * Use is subject to license terms.</p>
  * @author Modest von Korff
- * @version 1.0
+  *
  * Jul 18, 2012 MvK: Start implementation
  */
 public class PerformanceVectorComparisonParallel {

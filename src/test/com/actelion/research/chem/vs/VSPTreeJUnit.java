@@ -23,7 +23,7 @@ import java.util.List;
 
 /**
  * VSPTreeJUnit
- * <p>Copyright: Actelion Ltd., Inc. All Rights Reserved
+*
 
  * Use is subject to license terms.</p>
  * @author Modest von Korff

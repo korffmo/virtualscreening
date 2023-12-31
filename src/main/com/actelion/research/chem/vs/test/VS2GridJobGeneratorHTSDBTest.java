@@ -6,11 +6,11 @@ import java.util.List;
 /**
  * 
  * VS2GridJobGeneratorHTSDBTest
- * <p>Copyright: Actelion Ltd., Inc. All Rights Reserved
+*
 
  * Use is subject to license terms.</p>
  * @author Modest von Korff
- * @version 1.0
+  *
  * 17 Mar 2010 MvK: Start implementation
  */
 public class VS2GridJobGeneratorHTSDBTest {

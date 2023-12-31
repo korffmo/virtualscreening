@@ -17,11 +17,11 @@ import java.util.List;
  * VSInThread
  * Adds missing descriptors for dwar file input.
  * Performs the virtual screening.
- * <p>Copyright: Actelion Ltd., Inc. All Rights Reserved
+*
 
  * Use is subject to license terms.</p>
  * @author Modest von Korff
- * @version 1.0
+  *
  * 2007 MvK: Start implementation
  * 07.12.2012 MvK: Major updates.
  * 31.01.2014 MvK: IOError thrown if no dwar interface

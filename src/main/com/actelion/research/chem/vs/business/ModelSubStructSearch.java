@@ -16,11 +16,11 @@ import com.actelion.research.util.UserDirsDefault;
 /**
  * 
  * ModelSubStructSearch
- * <p>Copyright: Actelion Ltd., Inc. All Rights Reserved
+*
 
  * Use is subject to license terms.</p>
  * @author Modest von Korff
- * @version 1.0
+  *
  * 10 Nov 2008 MvK: Start implementation
  * 4 May 2011 MvK: Changes
  */
