@@ -21,8 +21,8 @@ import java.util.List;
 
 /**
  * DualVSMain
- * <p>Copyright: Actelion Pharmaceuticals Ltd., Inc. All Rights Reserved
- * This software is the proprietary information of Actelion Pharmaceuticals, Ltd.
+
+
  * Use is subject to license terms.</p>
  * Created by korffmo1 on 04.04.16.
  */
@@ -31,7 +31,7 @@ public class DualVSMain {
     static final String USAGE =
         "Parallel virtual screening under consideration of inactive samples\n" +
         "Modest von Korff\n" +
-        "Actelion Pharmaceuticals Ltd.\n" +
+
         "Gewerbestrasse 16\n" +
         "CH-4123 Allschwil\n" +
         "2016\n" +

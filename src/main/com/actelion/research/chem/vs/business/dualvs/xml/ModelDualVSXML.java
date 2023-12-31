@@ -15,8 +15,8 @@ import java.util.List;
 
 /**
  * ModelDualVSXML
- * <p>Copyright: Actelion Pharmaceuticals Ltd., Inc. All Rights Reserved
- * This software is the proprietary information of Actelion Pharmaceuticals, Ltd.
+
+
  * Use is subject to license terms.</p>
  * Created by korffmo1 on 04.04.16.
  */

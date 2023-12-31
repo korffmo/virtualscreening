@@ -2,7 +2,7 @@ package com.actelion.research.chem.vs.test;
 
 /**
  * Modest v. Korff
- * Idorsia Pharmaceuticals Ltd.
+
  * 18/07/2023 Start implementation
  **/
 public class ConstantsVSTestPheSA {

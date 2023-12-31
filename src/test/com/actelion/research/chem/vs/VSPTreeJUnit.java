@@ -24,7 +24,7 @@ import java.util.List;
 /**
  * VSPTreeJUnit
  * <p>Copyright: Actelion Ltd., Inc. All Rights Reserved
- * This software is the proprietary information of Actelion Pharmaceuticals, Ltd.
+
  * Use is subject to license terms.</p>
  * @author Modest von Korff
  * Dec 13, 2021 MvK Start implementation

@@ -12,7 +12,7 @@ import com.actelion.research.chem.descriptor.DescriptorHandlerSkeletonSpheres;
  * PerformanceVectorComparison
  * Creates dummy descriptors and calculates all similarities. 
  * <p>Copyright: Actelion Ltd., Inc. All Rights Reserved
- * This software is the proprietary information of Actelion Pharmaceuticals, Ltd.
+
  * Use is subject to license terms.</p>
  * @author Modest von Korff
  * @version 1.0

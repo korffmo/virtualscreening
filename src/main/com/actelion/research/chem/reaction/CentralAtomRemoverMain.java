@@ -19,7 +19,7 @@ import com.actelion.research.util.UserDirsDefault;
 /**
  * CentralAtomRemoverMain
  * <p>Copyright: Actelion Ltd., Inc. All Rights Reserved
- * This software is the proprietary information of Actelion Pharmaceuticals, Ltd.
+
  * Use is subject to license terms.</p>
  * @author Modest von Korff
  * @version 1.0
@@ -36,7 +36,7 @@ public class CentralAtomRemoverMain {
 	private static final String USAGE = "CentralAtomRemoverMain.\n" +
     	    
 	    "Modest von Korff\n" +
-	    "Actelion Pharmaceuticals Ltd.\n" +
+
 	    "2014\n\n" +
 	    
  	"Removes all atoms for the given atomic number. The ligand molecules are set to fragments. " +

@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2019.
- * Idorsia Pharmaceuticals Ltd., Hegenheimermattweg 91, CH-4123 Allschwil, Switzerland
+
  *
  *  This file is part of DataWarrior.
  *

@@ -16,7 +16,7 @@ import java.util.List;
 
 /**
  * Modest v. Korff
- * Idorsia Pharmaceuticals Ltd.
+
  * 31/10/2023 Start implementation
  **/
 public class RemoveDWARDescriptorHeaderTagTest {

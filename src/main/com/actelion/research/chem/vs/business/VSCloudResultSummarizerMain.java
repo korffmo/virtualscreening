@@ -13,7 +13,7 @@ import java.util.List;
 
 /**
  * Modest v. Korff
- * Idorsia Pharmaceuticals Ltd.
+
  * 22/09/2022 Start implementation
  **/
 public class VSCloudResultSummarizerMain {
@@ -23,7 +23,7 @@ public class VSCloudResultSummarizerMain {
     public static final String USAGE =
         "VSCloudResultSummarizerMain" + "\n" +
             "Modest v. Korff" + "\n" +
-            "Idorsia Pharmaceuticals Ltd." + "\n" +
+
             "2022" + "\n" +
             "Merges result files from VSCloud." + "\n" +
             "input: " + "\n" +
