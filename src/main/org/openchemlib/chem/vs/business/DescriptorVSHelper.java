@@ -20,6 +20,8 @@
 
 package org.openchemlib.chem.vs.business;
 
+import chem.descriptor.DescriptorHandlerExtendedFactory;
+import chem.descriptor.SimilarityCalculatorStandardFactory;
 import com.actelion.research.chem.descriptor.*;
 import com.actelion.research.chem.descriptor.vs.ModelDescriptorVS;
 import com.actelion.research.chem.phesa.DescriptorHandlerShape;

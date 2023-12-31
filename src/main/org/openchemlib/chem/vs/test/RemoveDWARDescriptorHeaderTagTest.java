@@ -1,10 +1,6 @@
 package org.openchemlib.chem.vs.test;
 
-import com.actelion.research.chem.descriptor.DescriptorConstants;
-import com.actelion.research.chem.descriptor.DescriptorInfo;
-import com.actelion.research.chem.descriptor.flexophore.hardppp.DescriptorHandlerFlexophoreHardPPP;
-import com.actelion.research.chem.descriptor.flexophore.highres.DescriptorHandlerFlexophoreHighRes;
-import com.actelion.research.chem.descriptor.pharmacophoretree.DescriptorHandlerPTree;
+import chem.descriptor.flexophore.highres.DescriptorHandlerFlexophoreHighRes;
 import com.actelion.research.chem.dwar.DWARFileHandlerHelper;
 import com.actelion.research.chem.dwar.DWARHeader;
 import com.actelion.research.util.ConstantsDWAR;

@@ -1,8 +1,10 @@
 package com.actelion.research.chem.vs;
 
+import chem.descriptor.DescriptorHandlerExtendedFactory;
+import chem.descriptor.GenDescriptorMulticore;
 import com.actelion.research.chem.descriptor.*;
 
-import com.actelion.research.chem.descriptor.create.DescriptorSelectionHelper;
+import chem.descriptor.create.DescriptorSelectionHelper;
 import org.openchemlib.chem.vs.business.ConstantsVS;
 import org.openchemlib.chem.vs.business.InfoVS;
 import org.openchemlib.chem.vs.business.VSParallel;

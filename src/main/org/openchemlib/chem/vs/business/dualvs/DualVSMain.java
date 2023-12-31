@@ -2,7 +2,7 @@ package org.openchemlib.chem.vs.business.dualvs;
 
 import com.actelion.research.chem.descriptor.DescriptorConstants;
 import com.actelion.research.chem.descriptor.DescriptorHandler;
-import com.actelion.research.chem.descriptor.DescriptorHandlerExtendedFactory;
+import chem.descriptor.DescriptorHandlerExtendedFactory;
 import com.actelion.research.chem.descriptor.vs.ModelDescriptorVS;
 import com.actelion.research.chem.dwar.DWARFileHandlerHelper;
 import org.openchemlib.chem.vs.business.CheckForMissingDescriptors;

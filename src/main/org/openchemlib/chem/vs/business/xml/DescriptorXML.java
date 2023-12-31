@@ -2,7 +2,7 @@
 package org.openchemlib.chem.vs.business.xml;
 
 import com.actelion.research.chem.descriptor.DescriptorHandler;
-import com.actelion.research.chem.descriptor.DescriptorHandlerExtendedFactory;
+import chem.descriptor.DescriptorHandlerExtendedFactory;
 import com.actelion.research.chem.descriptor.vs.ModelDescriptorVS;
 
 import jakarta.xml.bind.annotation.XmlAccessType;

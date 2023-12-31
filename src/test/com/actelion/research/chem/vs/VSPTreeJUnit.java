@@ -1,5 +1,7 @@
 package com.actelion.research.chem.vs;
 
+import chem.descriptor.DescriptorHandlerExtendedFactory;
+import chem.descriptor.GenDescriptorMulticore;
 import com.actelion.research.chem.descriptor.*;
 import org.openchemlib.chem.vs.business.ConstantsVS;
 import org.openchemlib.chem.vs.business.InfoVS;

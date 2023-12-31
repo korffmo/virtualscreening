@@ -22,8 +22,8 @@ package com.actelion.research.chem.vs;
 
 import com.actelion.research.chem.descriptor.DescriptorConstants;
 import com.actelion.research.chem.descriptor.DescriptorHandler;
-import com.actelion.research.chem.descriptor.DescriptorHandlerExtendedFactory;
-import com.actelion.research.chem.descriptor.GenDescriptorMulticore;
+import chem.descriptor.DescriptorHandlerExtendedFactory;
+import chem.descriptor.GenDescriptorMulticore;
 import com.actelion.research.chem.dwar.DWARFileHandler;
 import com.actelion.research.chem.dwar.DWARFileHandlerHelper;
 import com.actelion.research.chem.dwar.DWARRecord;
