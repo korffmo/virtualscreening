@@ -1,20 +1,24 @@
-package com.actelion.research.chem.vs;
+package org.openchemlib.chem.vs;
 
-import chem.descriptor.DescriptorHandlerExtendedFactory;
-import chem.descriptor.GenDescriptorMulticore;
-import com.actelion.research.chem.descriptor.*;
+import org.openchemlib.chem.descriptor.DescriptorHandlerExtendedFactory;
+import org.openchemlib.chem.descriptor.GenDescriptorMulticore;
+import com.actelion.research.chem.descriptor.DescriptorConstants;
+import com.actelion.research.chem.descriptor.DescriptorHandler;
+import com.actelion.research.util.ConstantsDWAR;
+import com.actelion.research.util.IO;
+import com.actelion.research.util.TimeDelta;
+import com.actelion.research.util.UserDirsDefault;
+import com.actelion.research.util.datamodel.StringDouble;
+import jakarta.xml.bind.JAXBException;
+import org.junit.Test;
 import org.openchemlib.chem.vs.business.ConstantsVS;
 import org.openchemlib.chem.vs.business.InfoVS;
 import org.openchemlib.chem.vs.business.VSParallel;
 import org.openchemlib.chem.vs.business.xml.DescriptorXML;
 import org.openchemlib.chem.vs.business.xml.ModelVSXML;
 import org.openchemlib.chem.vs.test.ConstantsVSTest;
-import com.actelion.research.util.*;
-import com.actelion.research.util.datamodel.StringDouble;
-import org.junit.Test;
 import org.xml.sax.SAXException;
 
-import jakarta.xml.bind.JAXBException;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.IOException;

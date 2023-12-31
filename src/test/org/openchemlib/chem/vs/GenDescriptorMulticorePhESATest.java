@@ -18,22 +18,25 @@
  *
  */
 
-package com.actelion.research.chem.vs;
+package org.openchemlib.chem.vs;
 
+import org.openchemlib.chem.descriptor.DescriptorHandlerExtendedFactory;
+import org.openchemlib.chem.descriptor.GenDescriptorMulticore;
 import com.actelion.research.chem.descriptor.DescriptorConstants;
 import com.actelion.research.chem.descriptor.DescriptorHandler;
-import chem.descriptor.DescriptorHandlerExtendedFactory;
-import chem.descriptor.GenDescriptorMulticore;
 import com.actelion.research.chem.dwar.DWARFileHandler;
 import com.actelion.research.chem.dwar.DWARFileHandlerHelper;
 import com.actelion.research.chem.dwar.DWARRecord;
 import com.actelion.research.chem.dwar.toolbox.export.ConvertString2PheSA;
 import com.actelion.research.chem.phesa.DescriptorHandlerShape;
 import com.actelion.research.chem.phesa.PheSAMolecule;
-import org.openchemlib.chem.vs.test.ConstantsVSTest;
-import com.actelion.research.util.*;
+import com.actelion.research.util.ConstantsDWAR;
+import com.actelion.research.util.Formatter;
+import com.actelion.research.util.IO;
+import com.actelion.research.util.UserDirsDefault;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import org.openchemlib.chem.vs.test.ConstantsVSTest;
 
 import java.io.File;
 import java.net.URL;

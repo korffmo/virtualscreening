@@ -1,4 +1,4 @@
-package com.actelion.research.chem.vs;
+package org.openchemlib.chem.vs;
 
 import static org.junit.runner.JUnitCore.runClasses;
 

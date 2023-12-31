@@ -20,12 +20,12 @@
 
 package org.openchemlib.chem.vs;
 
+import com.actelion.research.util.UserDirsDefault;
+import org.junit.Test;
 import org.openchemlib.chem.vs.business.InfoVS;
 import org.openchemlib.chem.vs.business.VSParallel;
 import org.openchemlib.chem.vs.business.xml.ModelVSXML;
 import org.openchemlib.chem.vs.test.ConstantsVSTest;
-import com.actelion.research.util.UserDirsDefault;
-import org.junit.Test;
 
 import java.io.File;
 import java.net.URL;

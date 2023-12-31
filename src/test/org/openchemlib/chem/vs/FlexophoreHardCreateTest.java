@@ -1,13 +1,13 @@
-package com.actelion.research.chem.vs;
+package org.openchemlib.chem.vs;
 
+import org.openchemlib.chem.descriptor.DescriptorHandlerExtendedFactory;
+import org.openchemlib.chem.descriptor.GenDescriptorMulticore;
 import com.actelion.research.chem.descriptor.DescriptorConstantsExtended;
 import com.actelion.research.chem.descriptor.DescriptorHandler;
-import chem.descriptor.DescriptorHandlerExtendedFactory;
-import chem.descriptor.GenDescriptorMulticore;
-import org.openchemlib.chem.vs.test.ConstantsVSTest;
 import com.actelion.research.util.ConstantsDWAR;
 import com.actelion.research.util.IO;
 import com.actelion.research.util.UserDirsDefault;
+import org.openchemlib.chem.vs.test.ConstantsVSTest;
 
 import java.io.File;
 import java.net.URL;

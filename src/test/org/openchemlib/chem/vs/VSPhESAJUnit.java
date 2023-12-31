@@ -1,21 +1,21 @@
-package com.actelion.research.chem.vs;
+package org.openchemlib.chem.vs;
 
+import org.openchemlib.chem.descriptor.DescriptorHandlerExtendedFactory;
+import org.openchemlib.chem.descriptor.GenDescriptorMulticore;
 import com.actelion.research.chem.descriptor.DescriptorConstants;
 import com.actelion.research.chem.descriptor.DescriptorHandler;
-import chem.descriptor.DescriptorHandlerExtendedFactory;
-import chem.descriptor.GenDescriptorMulticore;
 import com.actelion.research.chem.dwar.DWARFileHandlerHelper;
 import com.actelion.research.chem.dwar.DWARRecord;
 import com.actelion.research.chem.dwar.comparator.DWARNumberComparator;
-import org.openchemlib.chem.vs.business.InfoVS;
-import org.openchemlib.chem.vs.business.VSParallel;
-import org.openchemlib.chem.vs.business.xml.ModelVSXML;
-import org.openchemlib.chem.vs.test.ConstantsVSTestPheSA;
 import com.actelion.research.util.ConstantsDWAR;
 import com.actelion.research.util.IO;
 import com.actelion.research.util.UserDirsDefault;
 import com.actelion.research.util.datamodel.StringDouble;
 import org.junit.Test;
+import org.openchemlib.chem.vs.business.InfoVS;
+import org.openchemlib.chem.vs.business.VSParallel;
+import org.openchemlib.chem.vs.business.xml.ModelVSXML;
+import org.openchemlib.chem.vs.test.ConstantsVSTestPheSA;
 
 import java.io.File;
 import java.io.IOException;

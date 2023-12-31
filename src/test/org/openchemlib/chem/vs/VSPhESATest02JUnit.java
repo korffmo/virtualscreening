@@ -1,13 +1,13 @@
-package com.actelion.research.chem.vs;
+package org.openchemlib.chem.vs;
 
 import com.actelion.research.chem.descriptor.DescriptorConstants;
-import org.openchemlib.chem.vs.business.InfoVS;
-import org.openchemlib.chem.vs.business.VSParallel;
-import org.openchemlib.chem.vs.business.xml.ModelVSXML;
 import com.actelion.research.util.ConstantsDWAR;
 import com.actelion.research.util.UserDirsDefault;
 import com.actelion.research.util.datamodel.StringDouble;
 import org.junit.Test;
+import org.openchemlib.chem.vs.business.InfoVS;
+import org.openchemlib.chem.vs.business.VSParallel;
+import org.openchemlib.chem.vs.business.xml.ModelVSXML;
 
 import java.io.File;
 import java.net.URL;
