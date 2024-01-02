@@ -1,6 +1,6 @@
 package org.openchemlib.chem.vs.business;
 
-import chem.descriptor.MissingDescriptorGenerator;
+import org.openchemlib.chem.descriptor.MissingDescriptorGenerator;
 import com.actelion.research.chem.descriptor.vs.ModelDescriptorVS;
 import com.actelion.research.chem.dwar.DWARFileHandler;
 import com.actelion.research.chem.dwar.DWARInterface;

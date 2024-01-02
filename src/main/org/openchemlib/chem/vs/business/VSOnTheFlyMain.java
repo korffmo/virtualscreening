@@ -1,7 +1,7 @@
 package org.openchemlib.chem.vs.business;
 
 import com.actelion.research.chem.descriptor.DescriptorHandler;
-import chem.descriptor.DescriptorHandlerExtendedFactory;
+import org.openchemlib.chem.descriptor.DescriptorHandlerExtendedFactory;
 import com.actelion.research.chem.descriptor.DescriptorHandlerSkeletonSpheres;
 import com.actelion.research.chem.phesa.DescriptorHandlerShape;
 import com.actelion.research.util.CommandLineParser;

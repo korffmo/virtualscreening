@@ -21,11 +21,11 @@
 package org.openchemlib.chem.vs.business;
 
 import com.actelion.research.chem.descriptor.*;
-import chem.descriptor.flexophore.hardppp.DescriptorHandlerFlexophoreHardPPP;
-import chem.descriptor.flexophore.highres.DescriptorHandlerFlexophoreHighRes;
+import org.openchemlib.chem.descriptor.flexophore.hardppp.DescriptorHandlerFlexophoreHardPPP;
+import org.openchemlib.chem.descriptor.flexophore.highres.DescriptorHandlerFlexophoreHighRes;
 import com.actelion.research.chem.descriptor.pharmacophoretree.DescriptorHandlerPTree;
 import com.actelion.research.chem.descriptor.vs.ModelDescriptorVS;
-import chem.descriptor.vs.VSResultArray;
+import org.openchemlib.chem.descriptor.vs.VSResultArray;
 import com.actelion.research.chem.dwar.DWARFileHandlerHelper;
 import com.actelion.research.chem.dwar.DWARFileWriterHelper;
 import com.actelion.research.chem.dwar.DWARHeader;

@@ -3,7 +3,7 @@ package org.openchemlib.chem.vs.business;
 import com.actelion.research.chem.descriptor.DescriptorConstants;
 import com.actelion.research.chem.descriptor.DescriptorHelper;
 import com.actelion.research.chem.descriptor.vs.ModelDescriptorVS;
-import chem.descriptor.vs.VSResultArray;
+import org.openchemlib.chem.descriptor.vs.VSResultArray;
 import com.actelion.research.chem.dwar.DWARFileWriter;
 import com.actelion.research.chem.dwar.DWARHeader;
 import com.actelion.research.chem.dwar.DWARRecord;

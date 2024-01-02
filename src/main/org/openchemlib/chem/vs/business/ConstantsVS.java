@@ -21,7 +21,7 @@
 package org.openchemlib.chem.vs.business;
 
 import com.actelion.research.chem.descriptor.DescriptorHandler;
-import chem.descriptor.DescriptorHandlerExtendedFactory;
+import org.openchemlib.chem.descriptor.DescriptorHandlerExtendedFactory;
 import com.actelion.research.chem.descriptor.vs.ModelDescriptorVS;
 
 import java.io.File;

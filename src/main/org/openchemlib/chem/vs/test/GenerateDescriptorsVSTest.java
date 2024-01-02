@@ -1,8 +1,8 @@
 package org.openchemlib.chem.vs.test;
 
 import com.actelion.research.chem.descriptor.DescriptorHandler;
-import chem.descriptor.DescriptorHandlerExtendedFactory;
-import chem.descriptor.GenDescriptorMulticore;
+import org.openchemlib.chem.descriptor.DescriptorHandlerExtendedFactory;
+import org.openchemlib.chem.descriptor.GenDescriptorMulticore;
 import org.openchemlib.chem.vs.business.InfoVS;
 import org.openchemlib.chem.vs.business.VSParallel;
 import org.openchemlib.chem.vs.business.xml.DescriptorXML;

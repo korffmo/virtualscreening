@@ -20,7 +20,7 @@
 
 package org.openchemlib.chem.vs.test;
 
-import chem.descriptor.vs.VSResultArray;
+import org.openchemlib.chem.descriptor.vs.VSResultArray;
 import com.actelion.research.chem.dwar.DWARFileHandler;
 import com.actelion.research.chem.dwar.DWARFileHandlerHelper;
 import com.actelion.research.chem.dwar.disk.sort.DiskSortDWAR;

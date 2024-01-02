@@ -1,7 +1,7 @@
 package org.openchemlib.chem.vs.business;
 
 import com.actelion.research.chem.descriptor.DescriptorHandler;
-import chem.descriptor.GenDescriptorMulticore;
+import org.openchemlib.chem.descriptor.GenDescriptorMulticore;
 import org.openchemlib.chem.vs.business.xml.ModelVSXML;
 import com.actelion.research.util.ConstantsDWAR;
 import com.actelion.research.util.IO;

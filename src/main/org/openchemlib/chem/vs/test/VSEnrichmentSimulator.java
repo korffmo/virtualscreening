@@ -2,7 +2,7 @@ package org.openchemlib.chem.vs.test;
 
 import java.util.Random;
 
-import chem.descriptor.vs.eval.testdata.VSEnrichment;
+import org.openchemlib.chem.descriptor.vs.eval.testdata.VSEnrichment;
 import com.actelion.research.util.Formatter;
 
 public class VSEnrichmentSimulator {
