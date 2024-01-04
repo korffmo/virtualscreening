@@ -7,6 +7,7 @@ import com.actelion.research.chem.phesa.DescriptorHandlerShape;
 import com.actelion.research.util.CommandLineParser;
 import com.actelion.research.util.ConstantsDWAR;
 import com.actelion.research.util.datamodel.StringDouble;
+import org.openchemlib.chem.descriptor.flexophore.hyperspace.search.ProgressListenerVS;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -51,13 +52,25 @@ public class VSOnTheFlyPheSAMain {
         System.out.println("threshPheSA " + threshPheSA);
         System.out.println("threshSkelSpheres " + threshSkelSpheres);
 
-        File fiDWARVSResult = vs(fiDWARLibrary, fiDWARQuery, workdir, threshPheSA, threshSkelSpheres);
+        File fiDWARVSResult = vs(fiDWARLibrary, fiDWARQuery, workdir, threshPheSA, threshSkelSpheres, null);
 
         System.out.println(fiDWARVSResult.getAbsolutePath());
 
     }
 
-    public static File vs(File fiDWARLibrary, File fiDWARQuery, File workdir, double threshPheSA, double threshSkelSpheres) throws Exception {
+    /**
+     *
+     * @param fiDWARLibrary
+     * @param fiDWARQuery
+     * @param workdir
+     * @param threshPheSA
+     * @param threshSkelSpheres
+     * @param progressListenerVS can be null.
+     * @return
+     * @throws Exception
+     */
+
+    public static File vs(File fiDWARLibrary, File fiDWARQuery, File workdir, double threshPheSA, double threshSkelSpheres, ProgressListenerVS progressListenerVS) throws Exception {
         String tagIdcode = ConstantsDWAR.TAG_IDCODE2;
 
         List<StringDouble> liDescriptorNameThresh = new ArrayList<>();
@@ -81,7 +94,7 @@ public class VSOnTheFlyPheSAMain {
         File fiDWARLibraryDescriptors = vsOnTheFly.genDescriptors(fiDWARLibrary, tagIdcode, liDescriptorHandlerLibrary);
         File fiDWARQueryDescriptors = vsOnTheFly.genDescriptors(fiDWARQuery, tagIdcode, liDescriptorHandlerQuery);
 
-        File fiDWARVSResult = vsOnTheFly.vs(fiDWARLibraryDescriptors, fiDWARQueryDescriptors);
+        File fiDWARVSResult = vsOnTheFly.vs(fiDWARLibraryDescriptors, fiDWARQueryDescriptors, progressListenerVS);
 
         return fiDWARVSResult;
     }

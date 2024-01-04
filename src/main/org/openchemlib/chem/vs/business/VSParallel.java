@@ -118,9 +118,10 @@ public class VSParallel {
 
 	private ProgressListenerVS progressListenerVS;
 
-	public VSParallel(ModelVSXML model) throws Exception {
+	public VSParallel(ModelVSXML model, ProgressListenerVS progressListenerVS) throws Exception {
 
 		this.model = model;
+		this.progressListenerVS = progressListenerVS;
 
 		processorsForVS = model.getNumProcessors();
 
@@ -169,9 +170,10 @@ public class VSParallel {
 			model.setNameDWARResultElusive("vsResultElusive" + ConstantsDWAR.DWAR_EXTENSION);
 		}
 
-		progressListenerVS = new ProgressListenerVS();
+		if(progressListenerVS==null)
+			this.progressListenerVS = new ProgressListenerVS();
 
-		progressListenerVS.startProgress("Percentage done", 0, 100);
+
 
 	}
 

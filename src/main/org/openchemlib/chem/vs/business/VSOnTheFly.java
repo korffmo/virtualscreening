@@ -2,6 +2,7 @@ package org.openchemlib.chem.vs.business;
 
 import com.actelion.research.chem.descriptor.DescriptorHandler;
 import org.openchemlib.chem.descriptor.GenDescriptorMulticore;
+import org.openchemlib.chem.descriptor.flexophore.hyperspace.search.ProgressListenerVS;
 import org.openchemlib.chem.vs.business.xml.ModelVSXML;
 import com.actelion.research.util.ConstantsDWAR;
 import com.actelion.research.util.IO;
@@ -24,7 +25,7 @@ public class VSOnTheFly {
 
     }
 
-    public File vs(File fiDWARDescriptors, File fiDWARQuery) throws Exception {
+    public File vs(File fiDWARDescriptors, File fiDWARQuery, ProgressListenerVS progressListenerVS) throws Exception {
 
         ModelVSXML modelXML = ModelVSXMLHelper.createParameterVS(fiDWARDescriptors, fiDWARQuery, liDescriptorNameThresh, workdir);
 
@@ -40,7 +41,7 @@ public class VSOnTheFly {
         modelXML.setNameDWARResultSummary(nameVSResultSummary);
 
 
-        VSParallel vsParallel = new VSParallel(modelXML);
+        VSParallel vsParallel = new VSParallel(modelXML, progressListenerVS);
 
         vsParallel.run();
 
