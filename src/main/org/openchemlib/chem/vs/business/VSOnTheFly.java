@@ -44,7 +44,6 @@ public class VSOnTheFly {
 
         vsParallel.run();
 
-
         return new File(vsParallel.getFileOutDWAR());
     }
 

@@ -7,6 +7,7 @@ import com.actelion.research.chem.descriptor.vs.ModelDescriptorVS;
 import com.actelion.research.chem.dwar.*;
 import com.actelion.research.chem.dwar.toolbox.export.ConvertString2PheSA;
 import com.actelion.research.chem.phesa.DescriptorHandlerShape;
+import org.openchemlib.chem.descriptor.flexophore.hyperspace.search.ProgressListenerVS;
 import org.openchemlib.chem.vs.CheckHeaderForNeededColumns;
 import org.openchemlib.chem.vs.business.xml.ModelVSXML;
 import com.actelion.research.util.*;
@@ -103,6 +104,8 @@ public class VSParallel {
 
 	private AtomicLong ccHits;
 
+	private AtomicLong ccHitsPheSA;
+
 	private TimeEstimator timeEstimator;
 
 	private long startLog;
@@ -112,6 +115,8 @@ public class VSParallel {
 	private InfoVS infoVS;
 
 	private int processorsForVS;
+
+	private ProgressListenerVS progressListenerVS;
 
 	public VSParallel(ModelVSXML model) throws Exception {
 
@@ -163,6 +168,10 @@ public class VSParallel {
 		if(model.getNameDWARResultElusive()==null || model.getNameDWARResultElusive().length()==0){
 			model.setNameDWARResultElusive("vsResultElusive" + ConstantsDWAR.DWAR_EXTENSION);
 		}
+
+		progressListenerVS = new ProgressListenerVS();
+
+		progressListenerVS.startProgress("Percentage done", 0, 100);
 
 	}
 
@@ -597,7 +606,7 @@ public class VSParallel {
 
 						VSThread vsThread = new VSThread(i,
 								queueModelVSRecordBase,
-								ccSimilarityCalculationsTotal, ccSimilarityCalculationsLog, ccHits,
+								ccSimilarityCalculationsTotal, ccSimilarityCalculationsLog, ccHits, ccHitsPheSA,
 								liArrModelDescriptorVSThread.get(i), liModelVSRecordQuery, model.isStereoDepletion(),
 								pipeShape2Mol, vsResultHandler);
 
@@ -834,6 +843,8 @@ public class VSParallel {
 
 		double percentDone =  fractionDone * 100.0;
 
+		progressListenerVS.updateProgress((int)(percentDone+0.5));
+
 		String s = "Calculated " + FORMAT_COUNTER.format(ccSimilarityCalculationsTotal.get()) + " scores (" + Formatter.format0(percentDone) + " %).";
 
 		System.out.println(s);
@@ -851,6 +862,9 @@ public class VSParallel {
 		System.out.println("Performance " + Formatter.format3(calcPerSec) + " similarity calculations per second [calc/sec].");
 		System.out.println("Similarity > threshold for " + ccHits.get() + " comparisons.");
 
+		progressListenerVS.updateHits((int)ccHits.get());
+		progressListenerVS.updateHitsPheSA((int)ccHitsPheSA.get());
+
 		startLog = new Date().getTime();
 
 	}
@@ -865,6 +879,7 @@ public class VSParallel {
 		private AtomicLong ccSimilarityCalculationsTotal;
 		private AtomicLong ccSimilarityCalculationsLog;
 		private AtomicLong ccHits;
+		private AtomicLong ccHitsPheSA;
 
 		@SuppressWarnings("rawtypes")
 		private ModelDescriptorVS [] arrDHVS;
@@ -900,6 +915,7 @@ public class VSParallel {
 						AtomicLong ccSimilarityCalculationsTotal,
 						AtomicLong ccSimilarityCalculationsLog,
 						AtomicLong ccHits,
+						AtomicLong ccHitsPheSA,
 						ModelDescriptorVS [] arrDHVSIn,
 						List<ModelVSRecord> liModelVSRecordQuery,
 						boolean stereoDepletion,
@@ -911,6 +927,7 @@ public class VSParallel {
 			this.ccSimilarityCalculationsTotal = ccSimilarityCalculationsTotal;
 			this.ccSimilarityCalculationsLog = ccSimilarityCalculationsLog;
 			this.ccHits = ccHits;
+			this.ccHitsPheSA = ccHitsPheSA;
 
 			this.arrDHVS = arrDHVSIn;
 
@@ -1050,6 +1067,8 @@ public class VSParallel {
 								if(modelDescriptorVS.getSimilarityCalculator() instanceof DescriptorHandlerShape){
 
 									if((sim > 0) && (sim >= modelDescriptorVS.getSimilarityThreshold())){
+
+										ccHitsPheSA.incrementAndGet();
 
 										DescriptorHandlerShape dhShape = (DescriptorHandlerShape)modelDescriptorVS.getSimilarityCalculator();
 

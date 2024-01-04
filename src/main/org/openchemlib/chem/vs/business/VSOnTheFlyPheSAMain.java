@@ -12,14 +12,14 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-public class VSOnTheFlyMain {
+public class VSOnTheFlyPheSAMain {
 
 
     public static final String USAGE =
-        "VSOnTheFlyMain" + "\n" +
+        "VSOnTheFlyPheSAMain" + "\n" +
             "Modest v. Korff" + "\n" +
             "Alipheron AG" + "\n" +
-            "2023" + "\n" +
+            "2024" + "\n" +
             "Makes a PheSA VS on the fly." + "\n" +
             "input: " + "\n" +
             "-i dwar with library molecule. " + "\n" +
@@ -46,10 +46,19 @@ public class VSOnTheFlyMain {
         double threshPheSA = cmd.getAsDouble("-p");
         double threshSkelSpheres = cmd.getAsDouble("-s");
 
-        String tagIdcode = ConstantsDWAR.TAG_IDCODE2;
+
 
         System.out.println("threshPheSA " + threshPheSA);
         System.out.println("threshSkelSpheres " + threshSkelSpheres);
+
+        File fiDWARVSResult = vs(fiDWARLibrary, fiDWARQuery, workdir, threshPheSA, threshSkelSpheres);
+
+        System.out.println(fiDWARVSResult.getAbsolutePath());
+
+    }
+
+    public static File vs(File fiDWARLibrary, File fiDWARQuery, File workdir, double threshPheSA, double threshSkelSpheres) throws Exception {
+        String tagIdcode = ConstantsDWAR.TAG_IDCODE2;
 
         List<StringDouble> liDescriptorNameThresh = new ArrayList<>();
 
@@ -74,7 +83,6 @@ public class VSOnTheFlyMain {
 
         File fiDWARVSResult = vsOnTheFly.vs(fiDWARLibraryDescriptors, fiDWARQueryDescriptors);
 
-        System.out.println(fiDWARVSResult.getAbsolutePath());
-
+        return fiDWARVSResult;
     }
 }
