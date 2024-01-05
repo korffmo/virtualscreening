@@ -190,7 +190,7 @@ public class VSPTreeJUnit {
 
 		ModelVSXML modelXML = ModelVSXML.get(fiParameterVSXML.toURI().toURL());
 
-		VSParallel vs = new VSParallel(modelXML);
+		VSParallel vs = new VSParallel(modelXML, null);
 
 		vs.run();
 

@@ -102,7 +102,7 @@ public class GenerateDescriptorsVSTest {
 
         modelVSXML.write(fiXML);
 
-        VSParallel vs = new VSParallel(modelVSXML);
+        VSParallel vs = new VSParallel(modelVSXML, null);
 
         vs.run();
 

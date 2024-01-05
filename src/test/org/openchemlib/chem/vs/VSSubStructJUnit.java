@@ -86,7 +86,7 @@ public class VSSubStructJUnit {
 		
 		modelXML.write(fiXML);
         
-		VSParallel vs = new VSParallel(modelXML);
+		VSParallel vs = new VSParallel(modelXML, null);
 		
 		vs.run();
 		

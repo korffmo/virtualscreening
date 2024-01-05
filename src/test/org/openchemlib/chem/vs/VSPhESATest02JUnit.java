@@ -41,7 +41,7 @@ public class VSPhESATest02JUnit {
 
         modelXML.setNameDWARResultElusive(nameVSResult);
 
-        VSParallel vs = new VSParallel(modelXML);
+        VSParallel vs = new VSParallel(modelXML, null);
 
         vs.run();
 

@@ -76,7 +76,7 @@ public class VSInThread implements Runnable {
         		modelVS.setQuery(fiQueryDescriptors.getAbsolutePath());
         	}
         	
-        	VSParallel vs = new VSParallel(modelVS);
+        	VSParallel vs = new VSParallel(modelVS, null);
         	
         	vs.run();
         

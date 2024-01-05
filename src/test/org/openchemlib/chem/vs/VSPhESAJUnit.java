@@ -90,7 +90,7 @@ public class VSPhESAJUnit {
 
         modelXML.setNameDWARResultElusive(nameVSResult);
 
-        VSParallel vs = new VSParallel(modelXML);
+        VSParallel vs = new VSParallel(modelXML, null);
 
         vs.run();
 
@@ -122,7 +122,7 @@ public class VSPhESAJUnit {
 
         modelXML.setQueryIdentifier(null);
 
-        VSParallel vs = new VSParallel(modelXML);
+        VSParallel vs = new VSParallel(modelXML, null);
 
         vs.run();
 

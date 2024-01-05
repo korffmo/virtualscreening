@@ -288,7 +288,7 @@ public class VSJUnit {
 		modelXML.setLiDescriptors(liDescriptorXML);
 		File fiXML = new File(workdir, ConstantsVSTest.PARAMETER_VS);
 		modelXML.write(fiXML);
-		VSParallel vs = new VSParallel(modelXML);
+		VSParallel vs = new VSParallel(modelXML, null);
 		vs.run();
 		InfoVS infoVS = vs.getInfoVS();
 		System.out.println(infoVS.toString());
@@ -317,7 +317,7 @@ public class VSJUnit {
 
 		File fiXML = new File(workdir, ConstantsVSTest.PARAMETER_VS);
 		modelXML.write(fiXML);
-		VSParallel vs = new VSParallel(modelXML);
+		VSParallel vs = new VSParallel(modelXML, null);
 		vs.run();
 		InfoVS infoVS = vs.getInfoVS();
 		System.out.println(infoVS.toString());
@@ -346,7 +346,7 @@ public class VSJUnit {
 
 		File fiXML = new File(workdir, ConstantsVSTest.PARAMETER_VS);
 		modelXML.write(fiXML);
-		VSParallel vs = new VSParallel(modelXML);
+		VSParallel vs = new VSParallel(modelXML, null);
 		vs.run();
 		InfoVS infoVS = vs.getInfoVS();
 
@@ -382,7 +382,7 @@ public class VSJUnit {
 		File fiLibrary, File fiQuery, List<StringDouble> liDescriptorName, File workdir) throws Exception {
 		File fiParameterVSXML = createParameterFile(fiLibrary, fiQuery, liDescriptorName, workdir);
 		ModelVSXML modelXML = ModelVSXML.get(fiParameterVSXML.toURI().toURL());
-		VSParallel vs = new VSParallel(modelXML);
+		VSParallel vs = new VSParallel(modelXML, null);
 		vs.run();
 		InfoVS infoVS = vs.getInfoVS();
 		return infoVS;

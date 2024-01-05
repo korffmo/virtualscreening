@@ -118,6 +118,12 @@ public class VSParallel {
 
 	private ProgressListenerVS progressListenerVS;
 
+	/**
+	 *
+	 * @param model
+	 * @param progressListenerVS can be null.
+	 * @throws Exception
+	 */
 	public VSParallel(ModelVSXML model, ProgressListenerVS progressListenerVS) throws Exception {
 
 		this.model = model;

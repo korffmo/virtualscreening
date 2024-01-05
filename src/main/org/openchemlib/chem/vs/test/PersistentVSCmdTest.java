@@ -72,7 +72,7 @@ public class PersistentVSCmdTest {
 
         modelVSXML.setReuptake(true);
 
-        VSParallel vs = new VSParallel(modelVSXML);
+        VSParallel vs = new VSParallel(modelVSXML, null);
 
         vs.run();
 
