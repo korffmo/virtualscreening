@@ -90,7 +90,7 @@ public class VSParallel {
 
 	private List<ModelDescriptorVS> liEnabledModelDescriptorVS;
 
-	private String strFileOutDWAR;
+	// private String strFileOutDWAR;
 
 	private long numFulfillThresh;
 
@@ -117,6 +117,8 @@ public class VSParallel {
 	private int processorsForVS;
 
 	private ProgressListenerVS progressListenerVS;
+
+	private File fiDWARResultElusive;
 
 	/**
 	 *
@@ -154,11 +156,11 @@ public class VSParallel {
 			throw new IOException("Not a directory '" + model.getWorkDir().getAbsolutePath() + "'.");
 		}
 
-		if(ConstantsVS.COMPARISON_MODE_VS.equals(model.getComparisonMode())) {
-			strFileOutDWAR = model.getWorkDir().getAbsolutePath() + File.separator + PREFIX_RESULT_VS + sFileInBaseName + ConstantsDWAR.DWAR_EXTENSION;
-		} else {
-			strFileOutDWAR = model.getWorkDir().getAbsolutePath() + File.separator + PREFIX_RESULT_LIBRARY_COMPARISON + sFileInBaseName + ConstantsDWAR.DWAR_EXTENSION;
-		}
+//		if(ConstantsVS.COMPARISON_MODE_VS.equals(model.getComparisonMode())) {
+//			strFileOutDWAR = model.getWorkDir().getAbsolutePath() + File.separator + PREFIX_RESULT_VS + sFileInBaseName + ConstantsDWAR.DWAR_EXTENSION;
+//		} else {
+//			strFileOutDWAR = model.getWorkDir().getAbsolutePath() + File.separator + PREFIX_RESULT_LIBRARY_COMPARISON + sFileInBaseName + ConstantsDWAR.DWAR_EXTENSION;
+//		}
 
 		writeResultTable2Log = true;
 
@@ -169,6 +171,8 @@ public class VSParallel {
 		ccSimilarityCalculationsTotal = new AtomicLong();
 
 		ccHits = new AtomicLong();
+
+		ccHitsPheSA = new AtomicLong();
 
 		infoVS = new InfoVS();
 
@@ -183,9 +187,9 @@ public class VSParallel {
 
 	}
 
-	public String getFileOutDWAR() {
-		return strFileOutDWAR;
-	}
+//	public String getFileOutDWAR() {
+//		return strFileOutDWAR;
+//	}
 
 	/**
 	 * @return the infoVS
@@ -763,12 +767,14 @@ public class VSParallel {
 				model.getWorkDir(), liEnabledModelDescriptorVS, fiDWARResult, model.isSkipDescriptorsInOutput());
 		if(ConstantsVS.COMPARISON_MODE_VS.equals(model.getComparisonMode())) {
 			vsResultSummarizer.writeResultsVS(fiDWARLibrary, fiDWARQuery, model.getQueryIdentifier(), infoVS, model.getNameDWARResultElusive(), model.getNameDWARResultSummary(), model.isSkipDescriptorsInOutput());
-			System.out.println("Result elusive: " + vsResultSummarizer.getFiDWARVSResultBaseAndQueryStructures());
-			System.out.println("Result short: " + vsResultSummarizer.getFiDWARSummary());
+			System.out.println("Result elusive: " + vsResultSummarizer.getFiDWARVSResultBaseAndQueryStructures().getAbsolutePath());
+			System.out.println("Result short: " + vsResultSummarizer.getFiDWARSummary().getAbsolutePath());
+			fiDWARResultElusive = vsResultSummarizer.getFiDWARVSResultBaseAndQueryStructures();
 		} else {
 			vsResultSummarizer.writeResultsLibraryComparison(fiDWARLibrary, infoVS, model.getNameDWARResultElusive());
 			System.out.println("Result library comparison. File with library molecules not similar to query.");
 			System.out.println(vsResultSummarizer.getFiDWARVSResultNotSimilarBaseMolecules().getAbsolutePath());
+			fiDWARResultElusive = vsResultSummarizer.getFiDWARVSResultNotSimilarBaseMolecules();
 		}
 
 		if(shapeAlignDescriptorHandler) {
@@ -776,6 +782,14 @@ public class VSParallel {
 		}
 
 		return recordsMatchedSimilarityQuery;
+	}
+
+	/**
+	 * Is result file from VS or library comparison.
+	 * @return
+	 */
+	public File getFiDWARResultElusive() {
+		return fiDWARResultElusive;
 	}
 
 	public void setProcessorsForVS(int processorsForVS) {

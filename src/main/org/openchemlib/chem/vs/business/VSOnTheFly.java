@@ -45,7 +45,7 @@ public class VSOnTheFly {
 
         vsParallel.run();
 
-        return new File(vsParallel.getFileOutDWAR());
+        return vsParallel.getFiDWARResultElusive();
     }
 
     public File genDescriptors(File fiDWAR, String tagIdCode, List<DescriptorHandler> liDescriptorHandler) throws Exception {
